@@ -1,0 +1,973 @@
+ideas = {
+	#############
+    ## SPIRITS ##
+	#############
+	country = {
+		URG_free_breadbasket = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_free_breadbasket" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = no }
+
+			picture = GFX_idea_URG_free_breadbasket
+
+			removal_cost = -1
+
+			modifier = {
+            gdp_growth_modifier = 0.05
+			political_power_factor = -0.15
+			political_power_gain = -0.5
+			industrial_capacity_factory	= -0.15
+			}
+		}
+		URG_sectarian_violence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_sectarian_violence" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = no }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			modifier = {
+
+			}
+		}
+
+		URG_Switzerland_of_Latin_America = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_Switzerland_of_Latin_America" }
+
+			allowed = { always = yes }
+			allowed_civil_war = { always = no }
+
+			picture = GFX_idea_URG_Switzerland_of_Latin_America
+
+			removal_cost = -1
+
+			modifier = {
+				misc_income_modifier = -10
+				taxable_population_modifier = 0.05
+				stability_factor = 0.50
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		URG_DS_Violence_very_weak = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_DS_Violence_very_weak" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.10
+				political_power_gain = -0.3
+				industrial_capacity_factory	= -0.10
+			}
+
+		}
+
+		URG_DS_Violence_weak = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_DS_Violence_weak" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.15
+				political_power_gain = -0.5
+				industrial_capacity_factory	= -0.15
+			}
+
+		}
+
+		URG_DS_Violence_normal = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_DS_Violence_normal" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.20
+				political_power_factor = -0.25
+				political_power_gain = -0.6
+				industrial_capacity_factory	= -0.25
+			}
+
+		}
+
+		URG_DS_Violence_strong = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_DS_Violence_strong" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.40
+				political_power_factor = -0.45
+				political_power_gain = -0.7
+				industrial_capacity_factory	= -0.40
+			}
+
+		}
+		URG_DS_Violence_very_strong = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_DS_Violence_very_strong" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.45
+				political_power_factor = -0.50
+				political_power_gain = -1.0
+				industrial_capacity_factory	= -0.50
+			}
+
+		}
+    	URG_MLNT_Violence_very_weak = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_MLNT_Violence_very_weak" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.10
+				political_power_gain = -0.3
+				industrial_capacity_factory	= -0.10
+			}
+
+		}
+
+		URG_MLNT_Violence_weak = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_MLNT_Violence_weak" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.15
+				political_power_gain = -0.5
+				industrial_capacity_factory	= -0.15
+			}
+
+		}
+
+		URG_MLNT_Violence_normal = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_MLNT_Violence_normal" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.20
+				political_power_factor = -0.25
+				political_power_gain = -0.6
+				industrial_capacity_factory	= -0.25
+			}
+
+		}
+
+		URG_MLNT_Violence_strong = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_MLNT_Violence_strong" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.40
+				political_power_factor = -0.45
+				political_power_gain = -0.7
+				industrial_capacity_factory	= -0.40
+			}
+
+		}
+		URG_MLNT_Violence_very_strong = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea URG_MLNT_Violence_very_strong" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+
+			picture = GFX_idea_URG_sectarian_violence
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.45
+				political_power_factor = -0.50
+				political_power_gain = -1.0
+				industrial_capacity_factory	= -0.50
+			}
+
+		}
+    }
+	#######################
+	###### Uruguay time
+	###### Starting peeps
+    head_of_government = {
+		URG_Victor_Haedo_hog = {
+		allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Victor_Haedo_hog"}
+			picture = GFX_idea_URG_Victor_Haedo_hog
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_popular_negotiator
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_Homero_Martinez_pol = {
+		allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Homero_Martinez_pol"}
+			picture = GFX_idea_URG_Homero_Martinez_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Juan_Eduardo_Azzini_eco = {
+		allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Juan_Eduardo_Azzini_eco"}
+			picture = GFX_idea_URG_Juan_Eduardo_Azzini_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Nicolas_Storace_sec = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Nicolas_Storace_sec"}
+			picture = GFX_idea_URG_Nicolas_Storace_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				security_minister
+				social_conservative
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	###### Blancos 1962 elections
+	head_of_government = {
+		URG_Daniel_Ferndandez_Crespo_hog = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Daniel_Ferndandez_Crespo_hog"}
+			picture = GFX_idea_URG_Victor_Haedo_hog
+				allowed = {
+					original_tag = URG
+				}
+				available = {
+					has_government = social_conservative
+				}
+				traits = {
+					head_of_government
+					social_conservative
+					hog_silent_workhorse
+				}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	head_of_government = {
+		URG_Luis_Giannattasio_hog = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Luis_Giannattasio_hog"}
+			picture = GFX_idea_URG_Luis_Giannattasio_hog
+				allowed = {
+					original_tag = URG
+				}
+				available = {
+					has_government = social_conservative
+				}
+				traits = {
+					head_of_government
+					social_conservative
+					hog_silent_workhorse
+				}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	head_of_government = {
+		URG_Washington_Beltran_hog = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Washington_Beltran_hog"}
+			picture = GFX_idea_URG_Washington_Beltran_hog
+				allowed = {
+					original_tag = URG
+				}
+				available = {
+					has_government = social_conservative
+				}
+				traits = {
+					head_of_government
+					social_conservative
+					hog_silent_workhorse
+				}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	head_of_government = {
+		URG_Alberto_Heber_hog = {
+			allowed = {
+				has_government = social_conservative
+							}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Alberto_Heber_hog"}
+			picture = GFX_idea_URG_Alberto_Heber_hog
+				allowed = {
+					original_tag = URG
+				}
+				available = {
+					has_government = social_conservative
+				}
+				traits = {
+					head_of_government
+					social_conservative
+					hog_silent_workhorse
+				}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_San_Martin_pol = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_San_Martin_pol"}
+			picture = GFX_idea_URG_San_Martin_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Salvador_Ferrer_Serra_eco = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Salvador_Ferrer_Serra_eco"}
+			picture = GFX_idea_URG_Salvador_Ferrer_Serra_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_Luis_Vidal_pol = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Luis_Vidal_pol"}
+			picture = GFX_idea_URG_Luis_Vidal_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				foreign_minister
+				social_conservative
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Raul_Ybarra_eco = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Raul_Ybarra_eco"}
+			picture = GFX_idea_URG_Raul_Ybarra_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Daniel_Martins_eco = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Daniel_Martins_eco"}
+			picture = GFX_idea_URG_Daniel_Martins_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Dardo_Ortiz_eco = {
+			allowed = {
+				has_government = social_conservative
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Dardo_Ortiz_eco"}
+			picture = GFX_idea_URG_Dardo_Ortiz_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_conservative
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	###### Colorados 1966 elections
+	 head_of_government = {
+		URG_Jorge_Pacheco_hog = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Jorge_Pacheco_hog"}
+			picture = GFX_idea_URG_Jorge_Pacheco_hog
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_Hector_Luisi_pol = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Hector_Luisi_pol"}
+			picture = GFX_idea_URG_Hector_Luisi_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Carlos_Vegh_eco = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Carlos_Vegh_eco"}
+			picture = GFX_idea_URG_Carlos_Vegh_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Augusto_Legnani_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Augusto_Legnani_sec"}
+			picture = GFX_idea_URG_Augusto_Legnani_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	###### Subsequent colorado ministers
+	head_of_government = {
+		URG_Alberto_Abdala_hog = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Alberto_Abdala_hog"}
+			picture = GFX_idea_URG_Alberto_Abdala_hog
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_silent_workhorse
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_Venancio_Flores_pol = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Venancio_Flores_pol"}
+			picture = GFX_idea_URG_Venancio_Flores_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_Jorge_Peirano_pol = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Jorge_Peirano_pol"}
+			picture = GFX_idea_URG_Jorge_Peirano_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		URG_Jose_Otero_pol = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Jose_Otero_pol"}
+			picture = GFX_idea_URG_Jose_Otero_pol
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_ideological_crusader
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Amilcar_Vasconcellos_eco = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Amilcar_Vasconcellos_eco"}
+			picture = GFX_idea_URG_Amilcar_Vasconcellos_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Cesar_Charlone_eco = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Cesar_Charlone_eco"}
+			picture = GFX_idea_URG_Cesar_Charlone_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Armando_Malet_eco = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Armando_Malet_eco"}
+			picture = GFX_idea_URG_Armando_Malet_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		URG_Carlos_Fleitas_eco = {
+		allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Carlos_Fleitas_eco"}
+			picture = GFX_idea_URG_Carlos_Fleitas_eco
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_reformer
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Eduardo_Jimenez_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Eduardo_Jimenez_sec"}
+			picture = GFX_idea_URG_Eduardo_Jimenez_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Alfredo_Lepro_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Alfredo_Lepro_sec"}
+			picture = GFX_idea_URG_Alfredo_Lepro_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Pedro_Cersosimo_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Pedro_Cersosimo_sec"}
+			picture = GFX_idea_URG_Pedro_Cersosimo_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Antonio_Francese_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Antonio_Francese_sec"}
+			picture = GFX_idea_URG_Antonio_Francese_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Santiago_de_Brum_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Santiago_de_Brum_sec"}
+			picture = GFX_idea_URG_Santiago_de_Brum_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		URG_Danilo_Sena_sec = {
+			allowed = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_Danilo_Sena_sec"}
+			picture = GFX_idea_URG_Danilo_Sena_sec
+			allowed = {
+				original_tag = URG
+			}
+			available = {
+				has_government = social_liberal
+				has_government = authoritarian_democrat
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_political_appointment
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+}

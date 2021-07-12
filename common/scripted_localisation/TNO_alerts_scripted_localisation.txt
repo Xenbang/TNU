@@ -1,0 +1,71 @@
+defined_text = {
+	name = Get_TNO_alert_name
+
+	text = {
+		trigger = { check_variable = { alert_id = 0 } }
+		localization_key = CSS_alert_name_senado_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 1 } }
+		localization_key = CSS_alert_name_pres_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 2 } }
+		localization_key = CSS_alert_name_pl_voting_begun
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 3 } }
+		localization_key = CSS_alert_name_development
+	}
+	text = {
+		localization_key = TNO_alert_name_missing
+	}
+}
+
+defined_text = {
+	name = Get_TNO_alert_description
+
+	text = {
+		trigger = { check_variable = { alert_id = 0 } }
+		localization_key = CSS_alert_desc_senado_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 1 } }
+		localization_key = CSS_alert_desc_pres_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 2 } }
+		localization_key = CSS_alert_desc_pl_voting_begun
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 3 } }
+		localization_key = CSS_alert_desc_development
+	}
+	text = {
+		localization_key = TNO_alert_desc_missing
+	}
+}
+
+defined_text = {
+	name = Get_TNO_alert_icon
+
+	text = {
+		trigger = { check_variable = { alert_id = 0 } }
+		localization_key = GFX_CSS_alert_senado_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 1 } }
+		localization_key = GFX_CSS_alert_pres_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 2 } }
+		localization_key = GFX_CSS_alert_bill_voting
+	}
+	text = {
+		trigger = { check_variable = { alert_id = 3 } }
+		localization_key = GFX_CSS_alert_development
+	}
+	text = {
+		localization_key = GFX_TNO_alert_missing
+	}
+}
