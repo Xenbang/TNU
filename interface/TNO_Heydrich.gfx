@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	### Background
+
+	spriteType = {
+		name = "GFX_HGR_little_black_men"
+		texturefile = "gfx/interface/HGR/HGR_ss_idealist_support.dds"
+	}
+}

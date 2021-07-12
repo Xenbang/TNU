@@ -1,0 +1,14 @@
+music_station = "base_music"
+
+music = {
+	song = "nuke_atmosphere"
+	
+	chance = {
+		modifier = {
+			factor = 300
+
+			has_country_flag = big_event_nuclear_war
+			has_global_flag = TNO_my_world_is_on_fire_how_about_yours
+		}		
+	}	
+}
