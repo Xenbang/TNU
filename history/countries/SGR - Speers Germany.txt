@@ -41,7 +41,6 @@ add_ideas = {
 	construction_level_7
 }
 
-
 set_technology = {
 	##INFANTRY##
 	# infantry_equipment_0 = 1
