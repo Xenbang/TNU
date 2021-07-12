@@ -1,0 +1,326 @@
+ideas = {
+	country = {
+		## Sovereignty
+		CHL_idea_crippled_sovereignty = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				drift_defence_factor = -0.20
+				political_power_gain = -0.10
+			}
+			picture = CHL_crippled_sovereignty_idea
+		}
+		## Ethnic Tension
+		CHL_idea_ethnic_tension_1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.02
+			}
+			picture = CHL_ethnic_tension_1_idea
+		}
+		#CHL_idea_ethnic_tension_2 = {
+		#	allowed = {
+		#		always = no
+		#	}
+		#	allowed_civil_war = {
+		#		always = yes
+		#	}
+		#	removal_cost = -1
+
+		#	modifier = {
+		#		stability_factor = -0.
+		#		conscription_factor = -0.02
+		#	}
+		#	picture = CHL_ethnic_tension_2_idea
+		#}
+		## La Hacienda
+		CHL_idea_la_hacienda_1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				poverty_monthly_rate = -0.75
+				annual_gdp_growth_factor = -0.15
+				taxable_population_modifier = -0.10
+			}
+			picture = CHL_la_hacienda_idea
+		}
+		## FDC
+		CHL_idea_FDC_liberal_dominance = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				political_power_factor = -0.07
+				gdp_growth_modifier = 0.001
+			}
+			picture = CHL_FDC_liberal_idea
+		}
+		CHL_idea_FDC_moderate_dominance = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+			}
+			picture = CHL_FDC_moderate_idea
+		}
+		CHL_idea_FDC_technocrat_dominance = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				consumer_goods_factor = 0.02
+				political_power_gain = -0.05
+			}
+			picture = CHL_FDC_technocrat_idea
+		}
+
+		## FRAP
+		CHL_idea_FRAP = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+			}
+			picture = CHL_UNAPO_idea
+		}
+
+		## UNAPO
+		CHL_idea_UNAPO = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				political_power_gain = 0.02
+			}
+			picture = CHL_UNAPO_idea
+		}
+
+		## DC
+		CHL_idea_DC= {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.02
+			}
+			picture = CHL_DC_idea
+		}
+
+		## Rural Collapse
+		CHL_idea_rural_collapse = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.3
+				conscription = -0.2
+				max_command_power = -50
+				weekly_manpower = -10
+			}
+			picture = CHL_rural_collapse_idea
+		}
+	}
+	head_of_government = {
+		CHL_Enrique_Escobar_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Enrique_Escobar_hog"}
+			picture = CHL_Enrique_Escobar_hog
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				CHL_Enrique_Escobar_hog_desc
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		CHL_Vergara_Donoso_pol = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Vergara_Donoso_pol"}
+			picture = CHL_Vergara_Donoso_pol
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				CHL_Vergara_Donoso_pol_desc
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		CHL_Julio_Philippi_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Julio_Philippi_eco"}
+			picture = CHL_Julio_Philippi_eco
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				CHL_Julio_Philippi_eco_desc
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	security_minister = {
+		CHL_Carlos_Vial_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Carlos_Vial_sec"}
+			picture = CHL_Carlos_Vial_sec
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				security_minister
+				social_liberal
+				CHL_Carlos_Vial_sec_desc
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+
+	security_minister = {
+		CHL_Tobias_Barroz_Ortiz_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Tobias_Barroz_Ortiz_sec"}
+			picture = CHL_Tobias_Barroz_Ortiz_sec
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		CHL_Pedro_Vuscovic_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Pedro_Vuscovic_eco"}
+			picture = CHL_Pedro_Vuscovic_eco
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				economy_minister
+				socialist
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		CHL_Jaime_Eyzaguirre_pol = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Jaime_Eyzaguirre_pol"}
+			picture = CHL_Jaime_Eyzaguirre_pol
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+
+	economy_minister = {
+		CHL_Jaime_Larrain_Garcia-Moreno_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHL_Jaime_Larrain_Garcia-Moreno_eco"}
+			picture = CHL_Jaime_Larrain_Garcia_eco
+			allowed = {
+				original_tag = CHL
+			}
+			available = {
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+}

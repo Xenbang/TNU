@@ -1,0 +1,23 @@
+BRA_trans_amazon_highway = {
+	consumer_goods_factor = BRA_develop_highway_consumer_goods
+	political_power_gain = BRA_develop_pp_cost
+}
+
+BRA_development_modifier = {
+	monthly_population = BRA_development_monthly_population
+}
+
+BRA_inflation_modifier = {
+	consumer_goods_factor = BRA_inflation_consumer_goods_factor
+	production_factory_efficiency_gain_factor = BRA_inflation_production_factory_efficiency_gain_factor
+	production_speed_buildings_factor = BRA_inflation_production_speed_buildings_factor
+	stability_factor = BRA_inflation_stability_factor
+	political_power_gain = BRA_inflation_political_power_gain
+}
+
+BRA_corruption_level = {
+	enable = { always = yes }
+	political_power_gain = BRA_pp_gain
+	research_speed_factor = BRA_research_factor
+	consumer_goods_factor = BRA_consumer_goods_factor
+}
