@@ -109,7 +109,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text"
 			position = { x = 14 y = 38 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			text = "[GET_CURRENT_INTRO_TEXT]"
 			maxWidth = 712
 			maxHeight = 410
@@ -120,7 +120,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text_Small"
 			position = { x = 14 y = 38 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			text = "[GET_CURRENT_INTRO_TEXT]"
 			maxWidth = 712
 			maxHeight = 370
@@ -142,7 +142,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text_ModInfo_Buttons"
 			position = { x = 14 y = 78 }
-			font = "aldrich_24_outline_closing"
+			font = "vt323_24_outline_closing"
 			text = "MOD_INFO_TEXT"
 			maxWidth = 712
 			maxHeight = 370
@@ -206,7 +206,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "TNO_ClosingScreen_Text"
 			position = { x = 20 y = 21 }
-			font = "aldrich_24_outline_closing"
+			font = "vt323_24_outline_closing"
 			text = "[GET_CLOSING_SCREEN_TEXT]"
 			maxWidth = 748
 			maxHeight = 406

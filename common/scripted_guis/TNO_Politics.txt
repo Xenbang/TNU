@@ -1,0 +1,165 @@
+scripted_gui = {
+
+	TNO_SG_politics = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_SG_politics_faction_leader_container"
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+			faction_leader_member_visible = {
+				is_in_faction = yes
+				#is_subject = no
+			}
+			faction_subject_visible = {
+				is_in_faction = yes
+				is_subject = yes
+			}
+			faction_icon_unity_pakt_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				GER = { is_faction_leader = yes }
+				OR = {
+					tag = GER
+					is_in_faction_with = GER
+				}
+			}
+			faction_icon_as_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				MZB = { is_faction_leader = yes }
+				OR = {
+					tag = MZB
+					is_in_faction_with = MZB
+				}
+			}
+			faction_icon_coprosperity_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				JAP = { is_faction_leader = yes }
+				OR = {
+					tag = JAP
+					is_in_faction_with = JAP
+				}
+			}
+			faction_icon_OFN_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				USA = { is_faction_leader = yes }
+				OR = {
+					tag = USA
+					is_in_faction_with = USA
+				}
+			}
+			faction_icon_UA_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				URL = { is_faction_leader = yes }
+				OR = {
+					tag = URL
+					is_in_faction_with = URL
+				}
+			}
+			faction_icon_FI_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_global_flag = FOURTH_INTERNATIONAL_FOUNDED
+				has_country_flag = FOURTH_INTERNATIONAL_MEMBER
+				OR = {
+					has_government = socialist
+					has_government = communist 
+				}
+			}
+			faction_icon_triumvirate_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				ITA = { is_faction_leader = yes }
+				OR = {
+					tag = ITA
+					is_in_faction_with = ITA
+				}
+			}
+			faction_icon_NLF_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				CHI = { is_faction_leader = yes }
+				OR = {
+					tag = CHI
+					is_in_faction_with = CHI
+				}
+			}
+			faction_icon_ARC_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_country_flag = joined_arc
+			}
+			faction_icon_generic_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				NOT = { 
+					OR = {
+						AND = {
+							GER = { is_faction_leader = yes }
+							OR = {
+								tag = GER
+								is_in_faction_with = GER
+							}
+						}
+						AND = {
+							COG = { is_faction_leader = yes }
+							OR = {
+								tag = COG
+								is_in_faction_with = COG
+							}
+						}
+						AND = {
+							JAP = { is_faction_leader = yes }
+							OR = {
+								tag = JAP
+								is_in_faction_with = JAP
+							}
+						}
+						AND = {
+							USA = { is_faction_leader = yes }
+							OR = {
+								tag = USA
+								is_in_faction_with = USA
+							}
+						}
+						AND = {
+							ITA = { is_faction_leader = yes }
+							OR = {
+								tag = ITA
+								is_in_faction_with = ITA
+							}
+						}
+						AND = {
+							CHI = { is_faction_leader = yes }
+							OR = {
+								tag = CHI
+								is_in_faction_with = CHI
+							}
+						}
+						NOT = {
+							has_country_flag = joined_arc
+						}
+					} 
+				}
+			}
+			current_faction_status_visible = {
+				OR = {
+					is_in_faction = yes
+					has_idea = Pakt_Observer
+				}
+			}
+		}
+
+		properties = {
+			current_faction_status = {
+				image = "[This.GetFactionStatus_icon]"
+			}
+		}
+	}

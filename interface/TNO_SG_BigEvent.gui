@@ -17,7 +17,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_GERMAN_CIVIL_WAR_T"
 			maxWidth = 580
@@ -125,7 +125,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_NUCLEAR_WAR_T"
 			maxWidth = 580
@@ -185,7 +185,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = BE_WW3_T
 			maxWidth = 580
@@ -265,7 +265,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_SOUTH_AFRICAN_WAR_T"
 			maxWidth = 580
@@ -344,7 +344,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_JAPANESE_ECONOMIC_WAR_T"
 			maxWidth = 580
@@ -423,7 +423,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_THE_HALL_INAUGURATION_T"
 			maxWidth = 580
@@ -502,7 +502,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_THE_YOCKEY_INAUGURATION_T"
 			maxWidth = 580
@@ -581,7 +581,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_THE_MARS_LANDING_T"
 			maxWidth = 580
@@ -659,7 +659,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_INDONESIAN_WAR_T"
 			maxWidth = 580
@@ -738,7 +738,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_GREAT_ASIAN_WAR_T"
 			maxWidth = 580
@@ -817,7 +817,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_PF_T"
 			maxWidth = 275
@@ -896,7 +896,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_GERMAN_ITALIAN_INVASION_T"
 			maxWidth = 275
@@ -973,7 +973,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_IBERIAN_WARS_T"	
 			maxWidth = 580
@@ -1047,7 +1047,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_OIL_CRISIS_T"	
 			maxWidth = 580
@@ -1121,7 +1121,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_ORDER_44_T"	
 			maxWidth = 580
@@ -1195,7 +1195,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_SECOND_GERMAN_CIVIL_WAR_T"	
 			maxWidth = 580
@@ -1269,7 +1269,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_SGR_SLAVE_REVOLT_T"	
 			maxWidth = 580
@@ -1343,7 +1343,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_ZWEITE_NACHT_DER_LANGEN_MESSER_T"	
 			maxWidth = 580
@@ -1417,7 +1417,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_THE_JUNE_OF_DECEIT_T"	
 			maxWidth = 580
@@ -1490,7 +1490,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_T"	
 			maxWidth = 580
@@ -1564,7 +1564,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_WRRF_TUKHA_T"	
 			maxWidth = 580
@@ -1638,7 +1638,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_TNO_SE_STRAT_CHITA_RUSSIA_UNIFICATION_T"	
 			maxWidth = 580
@@ -1712,7 +1712,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_AMUR_T"	
 			maxWidth = 580
@@ -1786,7 +1786,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_MAGADAN_MATKOVSKY_T"	
 			maxWidth = 580
@@ -1860,7 +1860,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_MAGADAN_PETLIN_T"	
 			maxWidth = 580
@@ -1934,7 +1934,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_CHITA_IMPERIAL_T"	
 			maxWidth = 580
@@ -2009,7 +2009,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_T"	
 			maxWidth = 580
@@ -2084,7 +2084,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_WRRF_ZHUKOV_T"	
 			maxWidth = 580
@@ -2159,7 +2159,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_KOMI_TABORITSKY_T"	
 			maxWidth = 580
@@ -2234,7 +2234,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_VYATKA_LIBDEM_T"	
 			maxWidth = 580
@@ -2309,7 +2309,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_VYATKA_CONDEM_T"	
 			maxWidth = 580
@@ -2384,7 +2384,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_VYATKA_AUTHDEM_T"	
 			maxWidth = 580
@@ -2459,7 +2459,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_VAGNER_T"	
 			maxWidth = 580
@@ -2534,7 +2534,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_HYPERBOREA_T"	
 			maxWidth = 580
@@ -2609,7 +2609,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_SAMARA_ZYKOV_T"	
 			maxWidth = 580
@@ -2684,7 +2684,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_SAMARA_BUNYACHENKO_T"	
 			maxWidth = 580
@@ -2759,7 +2759,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_SAMARA_OKTAN_T"	
 			maxWidth = 580
@@ -2834,7 +2834,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BIG_EVENT_RUSSIAN_REUNIFICATION_FATHER_MEN_T"	
 			maxWidth = 580
@@ -2909,7 +2909,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_BURYATIA_LIBSOC_T"	
 			maxWidth = 580
@@ -2984,7 +2984,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_BURYATIA_AUTHSOC_T"	
 			maxWidth = 580
@@ -3059,7 +3059,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_IRKUTSK_PARTY_T"	
 			maxWidth = 580
@@ -3133,7 +3133,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_IRKUTSK_STATE_T"	
 			maxWidth = 580
@@ -3208,7 +3208,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_OMSK_T"	
 			maxWidth = 580
@@ -3283,7 +3283,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_TOMSK_HUMANIST_T"	
 			maxWidth = 580
@@ -3358,7 +3358,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KEMEROVO_YURIY_T"	
 			maxWidth = 580
@@ -3433,7 +3433,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KEMEROVO_LYDIA_T"	
 			maxWidth = 580
@@ -3508,7 +3508,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_SBA_DESPOTIST_T"	
 			maxWidth = 580
@@ -3583,7 +3583,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_SBA_LIBSOC_T"	
 			maxWidth = 580
@@ -3657,7 +3657,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_TYUMEN_KAGANOVICH_T"	
 			maxWidth = 580
@@ -3731,7 +3731,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_TYUMEN_KHRUSHCHEV_T"	
 			maxWidth = 580
@@ -3805,7 +3805,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_ZHDANOV_T"	
 			maxWidth = 580
@@ -3879,7 +3879,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_STALINA_T"	
 			maxWidth = 580
@@ -3953,7 +3953,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_BUKHARINA_T"	
 			maxWidth = 580
@@ -4027,7 +4027,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KOMI_GUMMILYOV_T"	
 			maxWidth = 580
@@ -4101,7 +4101,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KOMI_SHAFAREVICH_T"	
 			maxWidth = 580
@@ -4175,7 +4175,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KOMI_SEROV_T"	
 			maxWidth = 580
@@ -4249,7 +4249,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KOMI_SUSLOV_T"	
 			maxWidth = 580
@@ -4323,7 +4323,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_KOMI_DEMOCRATIC_T"	
 			maxWidth = 580
@@ -4397,7 +4397,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_SVERDLOVSK_YELTSIN_T"	
 			maxWidth = 580
@@ -4471,7 +4471,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_TOMSK_BASTILLARDS_T"	
 			maxWidth = 580
@@ -4545,7 +4545,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_TOMSK_MODERNISTS_T"	
 			maxWidth = 580
@@ -4619,7 +4619,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_TOMSK_DECEMBRISTS_T"	
 			maxWidth = 580
@@ -4693,7 +4693,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_GERMAN_WARLORD_ERA_T"	
 			maxWidth = 580
@@ -4767,7 +4767,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_FALL_ROCKWELL_T"	
 			maxWidth = 580
@@ -4841,7 +4841,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_FALL_SCHWARZ_T"	
 			maxWidth = 580
@@ -4915,7 +4915,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_HUTTIG_COLLAPSE_T"	
 			maxWidth = 580
@@ -4989,7 +4989,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_FALL_ROT_T"	
 			maxWidth = 580
@@ -5063,7 +5063,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_OPERATION_DAMMERUNG_T"	
 			maxWidth = 580
@@ -5137,7 +5137,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_THATCHER_T"	
 			maxWidth = 580
@@ -5211,7 +5211,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_MAC_T"	
 			maxWidth = 580
@@ -5285,7 +5285,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_MAUDLING_T"	
 			maxWidth = 580
@@ -5359,7 +5359,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_CHES_T"	
 			maxWidth = 580
@@ -5433,7 +5433,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_WILSON_T"	
 			maxWidth = 580
@@ -5507,7 +5507,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_BIRCH_T"	
 			maxWidth = 580
@@ -5581,7 +5581,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_JELLICOE_T"	
 			maxWidth = 580
@@ -5655,7 +5655,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_BRITISH_REUNIFICATION_STIRLING_T"	
 			maxWidth = 580
@@ -5729,7 +5729,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_NOVOSIBIRSK_POKRYSHKIN_T"	
 			maxWidth = 580
@@ -5803,7 +5803,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_UNIFICATION_NOVOSIBIRSK_SHUKSHIN_T"	
 			maxWidth = 580
@@ -5877,7 +5877,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_PRC_T"	
 			maxWidth = 580
@@ -5951,7 +5951,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_RUSSIAN_REUNIFICATION_MAGADAN_WERBELL_T"	
 			maxWidth = 580
@@ -6025,7 +6025,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_THE_AFRICAN_DEVASTATION_T"	
 			maxWidth = 580
@@ -6099,7 +6099,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Title"
 			position = { x = 0 y = 18 }
-			font = "aldrich_24_outline"
+			font = "vt323_24_outline"
 			borderSize = {x = 0 y = 0}
 			text = "BE_THE_AFRICAN_CRISIS_T"	
 			maxWidth = 580

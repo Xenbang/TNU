@@ -179,9 +179,6 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_ffr_oran_dockyards.dds"
 	}
 
-
-
-
 	spriteType = {
 		name = "GFX_idea_WOL_terror_bombing"
 		texturefile = "gfx/interface/ideas/ideas/idea_luftwaffe_bombings.dds"
