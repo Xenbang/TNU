@@ -39,6 +39,9 @@ add_ideas = {
 
 	#Construction Level
 	construction_level_7
+
+	war_economy
+	closed_economy 
 }
 
 set_technology = {
