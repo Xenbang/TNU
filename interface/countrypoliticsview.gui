@@ -46,10 +46,10 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 335 y = 300 }
+			position = { x= 350 y = 360 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-			scale = 0.75
+			scale = 1
 		}
 
 		containerWindowType = {
@@ -72,10 +72,10 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 385 y = 350 }
+			position = { x= 425 y = 315 }
 			size = { width=400 height=400 }
 			clipping = no
-			scale = 0.5
+			scale = 0.70
 
 			iconType = {
 				name = "chart"
@@ -143,7 +143,7 @@ guiTypes = {
 					
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 298 y = 22 }
+				position = { x = 261 y = 20 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -460,8 +460,6 @@ guiTypes = {
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
-
-
 		}
 
 		iconType ={
@@ -491,7 +489,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 10 y = 305 }
+			position = { x = 45 y = 305 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -499,7 +497,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 51 y = 315 }
+			position = { x = 84 y = 315 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -508,7 +506,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "subjects_button_container"
-			position = { x = 10 y = 343 }
+			position = { x = 45 y = 343 }
 
 			buttonType = {
 				name = "show_subjects_button"
@@ -539,7 +537,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_exiles_collaborations_button"
-			position = { x = 10 y = 380 }
+			position = { x = 45 y = 380 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -548,7 +546,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 40 y = 390 }
+			position = { x = 75 y = 390 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -561,13 +559,13 @@ guiTypes = {
 		iconType = {
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 13 y = 380 }
+			position = { x = 48 y = 380 }
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 305 }
+			position = { x = 46 y = 305 }
 		}
 	}
 	

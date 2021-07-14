@@ -2,18 +2,6 @@ capital = 302
 
 oob = "BOL_1962"
 
-add_ideas = {
-	#Ministers
-	BOL_Mario_R_Gutierrez_minister
-	BOL_Raul_Lema_Pelaez_minister
-	BOL_Floriano_Mendieta_minister
-	BOL_Luiz_Garcia_Meza_hog
-	#Ideas
-	#BOL_germania_boot
-	#BOL_anti_nationalist_attitude
-	#BOL_german_training
-}
-
 set_politics = {	
 	ruling_party = authoritarian_democrat
 	last_election = "1961.1.20"

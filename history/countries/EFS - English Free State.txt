@@ -69,47 +69,6 @@ set_convoys = 200
 set_war_support = 0.2
 set_stability = 0.5
 add_manpower = 300000
-add_ideas = {
-	#MINISTERS#
-	#political#
-	tno_political_parties_multiparty_system
-	tno_religious_rights_secularism
-	tno_trade_unions_all_allowed
-	tno_immigration_open_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_registered_voting
-	tno_refugees_vetted_entry
-	#military#
-	tno_conscription_two_year_draft
-	tno_women_noncombat_only
-	tno_military_supervision_military_policing
-	tno_military_spending_medium_spending
-	tno_training_basic_training
-	tno_racial_integration_not_applicable
-	tno_draft_exemptions_civil_service_deferment
-	#economic#
-	tno_trade_laws_limited_exports
-	tno_economic_focus_civilian_economy
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_low_income_weighted
-	tno_minimum_wage_trinket_minimum_wage
-	tno_max_workhours_12_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_low_pensions
-	tno_unemployment_no_subsidies
-	#social#
-	tno_safety_limited_regulations
-	tno_health_care_public_health_care
-	tno_pollution_no_controls
-	tno_education_public_education
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_equal_rights
-	tno_security_police	
-}
 
 set_politics = {	
 	ruling_party = social_liberal

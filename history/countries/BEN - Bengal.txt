@@ -445,60 +445,8 @@ create_corps_commander = {
 }
 
 add_ideas = {
-	#STARTING
 	Sphere_Coequal
 	BEN_Persistent_Communal_Violence
 	BEN_Private_Military_Contractors
 	BEN_Martial_Law
-	#MINISTERS
-	BEN_Lakshmi_Sahgal_hog
-	BEN_John_Thivy_for
-	BEN_AC_Chatterji_eco
-	BEN_Mohan_Singh_sec
-	#POLITICAL
-	tno_political_parties_controlled_opposition
-	tno_religious_rights_state_atheism
-	tno_trade_unions_all_allowed
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_censored_press
-	tno_vote_franchise_universal
-	tno_refugees_skilled
-	#MILITARY
-	tno_conscription_two_year_draft
-	tno_women_total_equality
-	tno_military_supervision_military_policing
-	tno_military_spending_large_spending
-	tno_training_advanced_training_methods
-	tno_racial_integration_integrated_military
-	tno_draft_exemptions_civil_service_deferment
-	#SOCIAL
-	tno_safety_acceptable_regulations
-	tno_health_care_public_health_care
-	tno_pollution_few_regulations
-	tno_education_public_education
-	tno_penal_system_penal_labor
-	tno_lgbt_rights_lgbt_allowed
-	tno_gender_rights_gender_equality
-	tno_minorities_equal_rights
-	tno_security_police
-	#ECONOMIC
-	tno_trade_laws_export_focus
-	tno_economic_focus_early_mobilization
-	tno_tax_rate_high_taxes
-	tno_income_taxation_high_income_weighted
-	tno_minimum_wage_acceptable_minimum
-	tno_max_workhours_8_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_acceptable_pensions
-	tno_unemployment_trinket_subsidies
-	#DEVELOPMENT#
-	tno_poverty_rate_50
-	tno_industrial_expertise_experienced
-	tno_industrial_equipment_factory_complexes
-	tno_agriculture_basic_mechanized
-	tno_research_facilities_militarized
-	tno_academic_base_mass_illiteracy
-	tno_army_professionalism_professional
 }

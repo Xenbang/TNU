@@ -123,9 +123,4 @@ create_country_leader = {
 add_ideas = {
 	#Country#
 	Sphere_Special_Econ_Zone
-	#Ministers
-	GNG_Kazuo_Aoki_hog
-	PHI_Kanjiro_Okada_eco
-	GNG_Kazuo_Aoki_for
-	GNG_Hisakazu_Tanaka_sec
 }

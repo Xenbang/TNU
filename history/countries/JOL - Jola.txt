@@ -4,11 +4,6 @@ add_ideas = {
 	WEST_AFRICA_idea_terror_bombing
 	JOL_idea_under_shadow_wolofia
 	JOL_idea_home_exiled_paigc
-
-	JOL_Assan_Musa_Camara_hog
-	JOL_Augustin_Diamacoune_Senghor_for
-	JOL_Daniel_Cabou_eco
-	JOL_Sheriff_Mustapha_Dibba_sec
 }
 
 oob = "JOL_1962"

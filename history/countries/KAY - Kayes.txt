@@ -6,11 +6,6 @@ add_ideas = {
 	WEST_AFRICA_idea_obliterated_infrastructures
 	KAY_idea_islamic_influences
 	KAY_idea_decentralized_high_command
-
-	KAY_Kissima_Doukara_hog
-	KAY_Abdoulaye_Soumare_for
-	KAY_Moussa_Traore_eco
-	KAY_Yoro_Diakite_sec
 }
 
 set_politics = {	

@@ -13,11 +13,6 @@ add_ideas = {
 	CAO_idea_tense_borders
 	CAO_idea_political_rivalries
 	CAO_ACA
-
-	CAO_Felix_Roland_Moumie_hog
-	CAO_Jean_Fochive_for
-	CAO_Joseph_Tchundjang_Pouemi_eco
-	CAO_Osende_Afana_sec
 }
 
 set_research_slots = 3

@@ -15,63 +15,6 @@ add_ideas = {
 	MAG_gateway_into_russia
 	RUS_port_of_magadan
 
-	### Ministers ###
-	MAG_Vladimir_Kibardin_hog
-	MAG_Nikolay_Petlin_for
-	MAG_Vladimir_Goltsov_eco
-	MAG_Alexander_Pavlov_sec
-
-	### Political ###
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_religion
-	tno_trade_unions_state_controlled
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_regulated
-	tno_press_rights_state_press_only
-	tno_vote_franchise_no_voting
-	tno_refugees_skilled
-
-	### Military ###
-	tno_conscription_four_year_draft
-	tno_women_banned
-	tno_military_supervision_military_policing
-	tno_military_spending_large_spending
-	tno_training_minimal_training
-	tno_racial_integration_segregated_regiments
-	tno_draft_exemptions_none
-
-	### Social ###
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_no_controls
-	tno_education_elite_only
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_traditional_roles
-	tno_minorities_segregation
-	tno_security_police
-
-	### Economic ###
-	tno_trade_laws_limited_exports
-	tno_economic_focus_early_mobilization
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_elite_tax_exemptions
-	tno_minimum_wage_trinket_minimum_wage
-	tno_max_workhours_14_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_trinket_pensions
-	tno_unemployment_no_subsidies
-
-	### Social Development ###
-	tno_nuclear_stockpile_none
-	tno_poverty_rate_50
-	tno_army_professionalism_disgruntled_veterans
-	tno_industrial_expertise_nascent
-	tno_industrial_equipment_power_tools
-	tno_agriculture_basic_mechanized
-	tno_research_facilities_outdated
-	tno_academic_base_basic_literacy
 }
 
 set_technology = {

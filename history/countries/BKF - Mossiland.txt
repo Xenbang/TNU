@@ -6,11 +6,6 @@ add_ideas = {
 	WEST_AFRICA_idea_obliterated_infrastructures
 	BKF_idea_remnant_francophilia
 	BKF_idea_relative_democracy
-
-	BKF_Maurice_Yameogo_hog
-	BKF_Moussa_Kargougou_for
-	BKF_Gerard_Kango_Ouedraogo_eco
-	BKF_Aboubacar_Sangoule_Lamizana_sec
 }
 
 set_politics = {	

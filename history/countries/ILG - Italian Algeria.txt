@@ -11,10 +11,6 @@ add_ideas = {
 	ILG_Wild_Frontier
 	ILG_Unofficial_Italian_Settlement
 	ILG_Saharan_Bandits_Prevalent
-	ILG_Giuseppe_Castellano_dep
-	ILG_Giuseppe_Castellano_for
-	ILG_Giuseppe_Castellano_eco
-	ILG_Giuseppe_Castellano_sec
 	IEA_idea_colonial_government
 }
 

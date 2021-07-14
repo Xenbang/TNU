@@ -4,11 +4,6 @@ add_ideas = {
 	WEST_AFRICA_idea_terror_bombing
 	EWE_idea_language_barrier
 	EWE_idea_bloated_high_command
-
-	EWE_Edward_Akufo_Addo_hog
-	EWE_Ebenezer_Ako_Adjei_for
-	EWE_Emmanuel_Obetsebi_Lamptey_eco
-	EWE_Ignatius_Kutu_Acheampong_sec
 }
 
 oob = "EWE_1962"

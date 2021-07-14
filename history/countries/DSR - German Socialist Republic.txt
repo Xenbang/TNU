@@ -1,55 +1,5 @@
 ﻿capital = 55
 
-add_ideas = {
-	#POLITICAL
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_atheism
-	tno_trade_unions_all_allowed
-	tno_immigration_closed_borders
-	tno_slavery_outlawed
-	tno_public_meetings_outlawed
-	tno_press_rights_state_press_only
-	tno_vote_franchise_no_voting
-	tno_refugees_banned
-	#MILITARY
-	tno_conscription_service_by_requirement
-	tno_women_combat_roles
-	tno_military_supervision_kill_em_all
-	tno_military_spending_medium_spending
-	tno_training_none
-	tno_racial_integration_segregated_regiments
-	tno_draft_exemptions_none
-	#SOCIAL
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_few_regulations
-	tno_education_public_education
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_segregation
-	tno_security_police
-	#ECONOMIC
-	tno_trade_laws_closed_economy
-	tno_economic_focus_total_mobilization
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_high_income_weighted
-	tno_minimum_wage_low_minimum_wage
-	tno_max_workhours_8_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_acceptable_pensions
-	tno_unemployment_trinket_subsidies
-	###MINISTERS###
-	DSR_Andreas_Baader_hog_com
-	DSR_Jan_Carl_Raspe_sec
-	DSR_Gudrun_Ensslin_for
-	DSR_Horst_Mahler_eco
-
-	#Construction Level
-	construction_level_7
-}
-
-
 set_politics = {
 	ruling_party = communist
 	last_election = "1933.3.5"

@@ -4,15 +4,6 @@ oob = "CHK_1962"
 
 add_ideas = {
 	RUS_isolated_vilages
-	##SOCIETAL DEVELOPMENT##
-	tno_nuclear_stockpile_none
-	tno_poverty_rate_80
-	tno_army_professionalism_untrained
-	tno_industrial_expertise_pre_industrial
-	tno_industrial_equipment_hand_tools
-	tno_agriculture_subsistence
-	tno_research_facilities_makeshift
-	tno_academic_base_mass_illiteracy
 }
 
 set_technology = {

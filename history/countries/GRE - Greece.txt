@@ -157,9 +157,4 @@ add_ideas = {
 	GRE_security_battalions
 	GRE_the_cyprus_situation
 
-	#ministers#
-	GRE_Luigi_Mascherpa_hog
-	GRE_Nikolaos_Bourantas_eco
-	GRE_Xenophon_Giosmas_sec
-	GRE_Georgios_Themelis_for
 }

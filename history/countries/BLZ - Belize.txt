@@ -11,7 +11,7 @@ set_politics = {
 }
 
 add_ideas = {
-OFN_Dependent_Member
+	OFN_Dependent_Member
 }
 
 set_popularities = {

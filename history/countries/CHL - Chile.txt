@@ -16,53 +16,6 @@ add_ideas = {
 	CHL_idea_la_hacienda_1
 	CHL_idea_crippled_sovereignty
 	CHL_idea_ethnic_tension_1
-
-	# Ministers
-	CHL_Enrique_Escobar_hog
-	CHL_Vergara_Donoso_pol
-	CHL_Julio_Philippi_eco
-	CHL_Carlos_Vial_sec
-
-	##Laws
-	#Political
-	tno_political_parties_multiparty_system
-	tno_religious_rights_pluralism
-	tno_trade_unions_nonsocialist_allowed
-	tno_immigration_open_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_registered_voting
-	tno_refugees_vetted_entry
-	#Military
-	tno_conscription_one_year_draft
-	tno_women_banned
-	tno_military_supervision_military_policing
-	tno_military_spending_medium_spending 
-	tno_training_basic_training
-	tno_racial_integration_integrated_military
-	tno_draft_exemptions_civil_service_deferment
-	#Social
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_few_regulations
-	tno_education_elite_only
-	tno_penal_system_incarceration
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_equal_rights
-	tno_security_security_service
-	#Economics
-	tno_trade_laws_free_trade
-	tno_economic_focus_civilian_economy
-	tno_tax_rate_low_taxation
-	tno_income_taxation_tax_havens
-	tno_minimum_wage_trinket_minimum_wage
-	tno_max_workhours_12_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_trinket_pensions
-	tno_unemployment_no_subsidies
-	##Societal Development
 }
 
 add_manpower = 35000

@@ -228,50 +228,6 @@ add_ideas = {
 	CAU_bergbaureich
 	CAU_shipments_to_ger
 	CAU_stratified
-	#CAU_stratified_less
-	#MINISTERS
-	CAU_Paul_Pleiger_for
-	CAU_Herbert_Backe_hog
-	CAU_Hans_Kehrl_eco
-	CAU_KarlHeinz_Burger_sec
-	#POLITICAL
-	tno_political_parties_one_party_state
-	tno_religious_rights_secularism
-	tno_trade_unions_illegal
-	tno_immigration_closed_borders
-	tno_slavery_allowed
-	tno_public_meetings_outlawed
-	tno_press_rights_state_press_only
-	tno_vote_franchise_no_voting
-	tno_refugees_banned
-	#MILITARY
-	tno_conscription_service_by_requirement
-	tno_women_banned
-	tno_military_supervision_no_supervision
-	tno_military_spending_large_spending
-	tno_training_basic_training
-	tno_racial_integration_none
-	tno_draft_exemptions_none
-	#SOCIAL
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_no_controls
-	tno_education_public_education
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_segregation
-	tno_security_police
-	#ECONOMIC
-	tno_trade_laws_export_focus
-	tno_economic_focus_partial_mobilization
-	tno_tax_rate_exploitative_taxation
-	tno_income_taxation_elite_tax_exemptions
-	tno_minimum_wage_no_minimum_wage
-	tno_max_workhours_unlimited_work_day
-	tno_child_labor_legal
-	tno_pensions_no_pensions
-	tno_unemployment_no_subsidies
 }
 
 set_politics = {

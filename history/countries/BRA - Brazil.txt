@@ -2,11 +2,6 @@ capital = 505
 
 add_political_power = 10
 oob = "BRA_1962"
-set_country_flag = BRA_operation_lobster_flag
-set_country_flag = BRA_lottquadros_category_allowed
-set_country_flag = BRA_military_category_allowed
-set_country_flag = gui_alert_visible
-
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -107,50 +102,13 @@ add_opinion_modifier = { target = FRA modifier = embargo }
 add_opinion_modifier = { target = BRT modifier = embargo }
 add_opinion_modifier = { target = IRE modifier = embargo }
 
-set_variable = { BRA_lottquadros_lott_influence = 55 }
-set_variable = { BRA_lottquadros_quadros_influence = 45 }
-set_variable = { BRA_lottquadros_total_influence = 100 }
-set_variable = { BRA_lottquadros_display_value = 55 }
-set_variable = { BRA_lottquadros_cooperation = 3 }
-
-
-# Military Setup
-BRA_initialize_military = yes
-
-# MAP GUI SETUP
-clear_array = BRA_map_selected_tab
-add_to_array = { BRA_map_selected_tab = 0 }
-clear_array = BRA_map_tab_frames
-add_to_array = { BRA_map_tab_frames = 2 }
-add_to_array = { BRA_map_tab_frames = 1 }
-add_to_array = { BRA_map_tab_frames = 1 }
-
-clear_array = BRA_map_election_type_frames
-add_to_array = { BRA_map_election_type_frames = 1 }
-add_to_array = { BRA_map_election_type_frames = 2 }
-
-BRA_initialize_senado = yes
-BRA_start_1962_election_preseason = yes
-BRA_initialize_develop = yes
-
-BRA_initialize_pres = yes
-
-add_dynamic_modifier = { modifier = BRA_trans_amazon_highway }
-add_dynamic_modifier = { modifier = BRA_development_modifier }
-add_dynamic_modifier = { modifier = BRA_inflation_modifier }
 
 set_politics = {	
 	ruling_party = social_liberal
 	last_election = "1960.4.20"
 	election_frequency = 48
 	elections_allowed = yes
-
 }
-
-### DIPLOMACY ###
-COG = { add_opinion_modifier = {target = BRA modifier = TNOCS_lobster_war} }
-
-add_opinion_modifier = {target = COG modifier = TNOCS_lobster_war}
 
 add_ideas = {
 	BRA_idea_overbearing_military
@@ -158,68 +116,6 @@ add_ideas = {
 	BRA_idea_industrialisation_crisis_campaign
 	BRA_idea_Lobster_conflict
 	BRA_idea_trans_amazon_highway
-	BRA_increase_90_percent_pop
-	##BRA_army_nepotism_3
-	
-	##Ministers
-	BRA_Quadros_hog
-	BRA_Salles_pol
-	BRA_Neves_eco
-	BRA_Denys_sec
-
-			#POLITICAL
-	tno_political_parties_multiparty_system
-	tno_religious_rights_secularism
-	tno_trade_unions_nonsocialist_allowed
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_universal
-	tno_refugees_vetted_entry
-
-	    #Military Laws#
-	tno_conscription_one_year_draft
-	tno_women_noncombat_only
-	tno_military_supervision_military_policing
-	tno_military_spending_low_spending
-	tno_training_basic_training
-	tno_racial_integration_integrated_military
-	tno_draft_exemptions_educational_deferment
-	    #ECONOMIC LAWS#
-	tno_trade_laws_export_focus
-	tno_economic_focus_civilian_economy
-	tno_tax_rate_low_taxation
-	tno_income_taxation_tax_havens
-	tno_minimum_wage_acceptable_minimum
-	tno_max_workhours_8_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_trinket_pensions
-	tno_unemployment_trinket_subsidies
-	    #Social Laws#
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_no_controls
-	tno_education_public_education
-	tno_penal_system_incarceration
-	tno_lgbt_rights_lgbt_allowed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_equal_rights
-	tno_security_security_service
-
-		#SOCIETAL DEVELOPMENT
-	tno_nuclear_stockpile_none
-	tno_poverty_rate_50
-	tno_army_professionalism_political_interference
-	tno_industrial_expertise_experienced
-	tno_industrial_equipment_factory_complexes
-	tno_agriculture_basic_mechanized
-	tno_research_facilities_outdated
-	tno_academic_base_secondary_schooling
-
-	#Construction Level
-	construction_level_6
-
 }
 
 set_popularities = {

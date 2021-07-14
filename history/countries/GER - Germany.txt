@@ -18,58 +18,6 @@ add_ideas = {
 	GER_Walther_Hewel_for
 	GER_Albert_Speer_eco
 		
-	## Laws
-	# Political
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_atheism
-	tno_trade_unions_illegal
-	tno_immigration_quota_immigration
-	tno_slavery_allowed
-	tno_public_meetings_regulated
-	tno_press_rights_state_press_only
-	tno_vote_franchise_registered_voting
-	tno_refugees_skilled
-	# Military
-	tno_conscription_two_year_draft
-	tno_women_banned
-	tno_military_supervision_kill_em_all
-	tno_military_spending_large_spending 
-	tno_training_basic_training
-	tno_racial_integration_none
-	tno_draft_exemptions_none
-	# Social
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_no_controls
-	tno_education_public_education
-	tno_penal_system_penal_slavery
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_traditional_roles
-	tno_minorities_oppression
-	tno_security_security_service
-	# Economic
-	tno_trade_laws_limited_exports
-	tno_economic_focus_early_mobilization
-	tno_tax_rate_high_taxes
-	tno_income_taxation_elite_tax_exemptions
-	tno_minimum_wage_trinket_minimum_wage
-	tno_max_workhours_14_hour_work_day
-	tno_child_labor_restricted
-	tno_pensions_low_pensions
-	tno_unemployment_no_subsidies
-
-	## Societal Development
-	tno_nuclear_stockpile_massive
-	tno_poverty_rate_25
-	tno_army_professionalism_professional
-	tno_industrial_expertise_experienced
-	tno_industrial_equipment_modern
-	tno_agriculture_mass_mechanized
-	tno_research_facilities_modern
-	tno_academic_base_secondary_schooling
-
-	#Construction Level
-	construction_level_5
 }
 
 if = {
@@ -80,23 +28,11 @@ if = {
 	}
 }
 
-set_country_flag = gui_alert_visible
-
-set_country_flag = GER_expanded_draft
-set_country_flag = GER_overextended_airforce
-set_country_flag = GER_faith_in_the_fuhrer
-set_country_flag = GER_supported_the_navy
-set_country_flag = GER_rampant_factionalism
-set_country_flag = GER_acted_against_SS
-set_country_flag = GER_reduced_heer_budget
-set_country_flag = GER_domestic_unrest
-
 set_research_slots = 4
 set_convoys = 200
 add_stability = 0.35
 add_war_support = 0.08
 add_manpower = 402178
-country_lock_all_division_template = yes # No civil war division template cheesing for you
 
 set_technology = {
 	##INFANTRY##

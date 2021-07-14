@@ -37,59 +37,6 @@ add_ideas = {
 	HOL_decaying_verzuiling
 	HOL_german_economy 
 	HOL_apathetic_populace 
-	#CABINET
-	HOL_Friedrich_Wimmer_hog 
-	HOL_Friedrich_Christiansen_sec 
-	HOL_Fritz_Schmidt_for
-	HOL_Hans_Fischbock_eco
-	#POLITICAL 
-	tno_political_parties_one_party_state 
-	tno_religious_rights_state_atheism 
-	tno_trade_unions_illegal 
-	tno_immigration_closed_borders 
-	tno_slavery_allowed 
-	tno_public_meetings_outlawed 
-	tno_press_rights_state_press_only 
-	tno_vote_franchise_no_voting 
-	tno_refugees_banned 
-	#MILITARY 
-	tno_conscription_two_year_draft 
-	tno_women_banned 
-	tno_military_supervision_kill_em_all 
-	tno_military_spending_large_spending 
-	tno_training_basic_training 
-	tno_racial_integration_not_applicable 
-	tno_draft_exemptions_none 
-	#SOCIAL 
-	tno_safety_minimal_regulations 
-	tno_health_care_public_health_care 
-	tno_pollution_no_controls 
-	tno_education_public_education 
-	tno_penal_system_capital_punishment 
-	tno_lgbt_rights_lgbt_outlawed 
-	tno_gender_rights_traditional_roles 
-	tno_minorities_oppression 
-	tno_security_security_service 
-	#ECONOMIC 
-	tno_trade_laws_export_focus 
-	tno_economic_focus_early_mobilization 
-	tno_tax_rate_high_taxes
-	tno_income_taxation_elite_tax_exemptions
-	tno_minimum_wage_trinket_minimum_wage 
-	tno_max_workhours_12_hour_work_day 
-	tno_child_labor_illegal 
-	tno_pensions_low_pensions 
-	tno_unemployment_no_subsidies
-	##SOCIETAL DEVELOPMENT##
-	tno_nuclear_stockpile_none
-	tno_poverty_rate_15
-	tno_army_professionalism_professional
-	tno_industrial_expertise_experienced
-	tno_industrial_equipment_modern
-	tno_agriculture_mass_mechanized
-	tno_research_facilities_outdated
-	tno_academic_base_secondary_schooling
-
 }
 
 

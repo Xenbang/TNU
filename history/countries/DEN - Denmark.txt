@@ -9,11 +9,6 @@ add_ideas = {
 	DEN_permanent_secretaries
 	DEN_agrarian_economy
 	DEN_threat_from_silkeborg
-	#Ministers
-	DEN_Nils_Svenningsen_hog
-	DEN_Axel_Gunnar_Larsen_eco
-	DEN_Hermann_von_Hanneken_sec
-	DEN_Georg_Ferdinand_Duckwitz_for
 }
 
 set_technology = {

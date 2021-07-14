@@ -104,67 +104,6 @@ add_ideas = {
 	BRT_breton_national_committee
 	BRT_the_bezen_perrot
 	Pakt_Marionettenstaat
-		
-		#Ministers
-	BRT_Francois_Debeauvais_hog
-	BRT_Yann_Fouere_for
-	BRT_Yann_Bricler_eco
-	BRT_Celestin_Laine_sec
-		
-		#Political
-	tno_political_parties_controlled_opposition
-	tno_religious_rights_secularism
-	tno_trade_unions_illegal
-	tno_immigration_quota_immigration
-	tno_slavery_corvee
-	tno_public_meetings_regulated
-	tno_press_rights_state_press_only
-	tno_vote_franchise_elite_voting
-	tno_refugees_skilled
-	
-		#Military Laws
-	tno_conscription_one_year_draft
-	tno_women_banned
-	tno_military_supervision_military_policing
-	tno_military_spending_large_spending
-	tno_training_basic_training
-	tno_racial_integration_none
-	tno_draft_exemptions_none
-	
-		#Social Laws
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_some_regulations
-	tno_education_public_education
-	tno_penal_system_penal_slavery
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_traditional_roles
-	tno_minorities_segregation
-	tno_security_police
-	
-		#Economic Laws
-	tno_trade_laws_limited_exports
-	tno_economic_focus_civilian_economy
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_elite_tax_exemptions
-	tno_minimum_wage_low_minimum_wage
-	tno_max_workhours_8_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_low_pensions
-	tno_unemployment_trinket_subsidies
-	
-		#Societal Development
-	tno_nuclear_stockpile_none
-	tno_poverty_rate_15
-	tno_army_professionalism_political_interference
-	tno_industrial_expertise_nascent
-	tno_industrial_equipment_factory_complexes
-	tno_agriculture_basic_mechanized
-	tno_research_facilities_politicized
-	tno_academic_base_secondary_schooling
-	
-		#Construction Spending
-	construction_level_4
 }
 
 set_research_slots = 2
@@ -371,9 +310,6 @@ set_popularities = {
     national_socialism = 25
 	burgundian_system = 10
 }
-
-set_variable = { interest_rates = 0.045 }
-set_variable = { national_debt = 125 }
 
 # Country Leaders #
 

@@ -60,54 +60,6 @@ add_ideas = {
 	HUN_az_kormanypart
 	HUN_suffocated_economy
 	HUN_der_volksbund
-
-	### <MINISTERS> ###
-	HUN_Andor_Jaross_hog
-	HUN_Bela_Miklos_sec
-	HUN_Ferenc_Rajniss_for
-	HUN_Lajos_Remenyi_Schneller_eco
-	
-	### <LAWS> ###
-	###Political###
-	tno_political_parties_controlled_opposition
-	tno_religious_rights_state_religion
-	tno_trade_unions_state_controlled
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_regulated
-	tno_press_rights_censored_press
-	tno_vote_franchise_no_voting
-	tno_refugees_skilled
-	###Social###
-	tno_safety_limited_regulations
-	tno_health_care_private_health_care
-	tno_pollution_few_regulations
-	tno_education_public_education
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_traditional_roles
-	tno_minorities_segregation
-	tno_security_police
-	###Military###
-	tno_conscription_two_year_draft
-	tno_women_banned
-	tno_military_supervision_military_policing
-	tno_military_spending_medium_spending
-	tno_training_combat_schooling
-	tno_racial_integration_none
-	tno_draft_exemptions_none
-	###Economy###
-	tno_trade_laws_export_focus
-	tno_economic_focus_early_mobilization
-	tno_tax_rate_low_taxation
-	tno_income_taxation_low_income_weighted
-	tno_minimum_wage_no_minimum_wage
-	tno_max_workhours_14_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_no_pensions
-	tno_unemployment_no_subsidies
-
-	construction_level_2
 }
 
 ### POLITICAL LEADERS ###
