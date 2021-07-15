@@ -6,9 +6,8 @@ state={
 	state_category = city
 	
 	history={
-		owner = GNG
-		add_core_of = GNG
-		set_demilitarized_zone = yes
+		owner = JAP
+		add_core_of = JAP
 		victory_points = { 4189 10 }
 		buildings = {
 			infrastructure = 4

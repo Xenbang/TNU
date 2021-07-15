@@ -452,59 +452,5 @@ add_ideas = {
 	AST_Les_Bury_eco
 	AST_Doug_Anthony_sec
 
-	#laws
-	tno_military_spending_medium_spending
-	tno_training_basic_training
-	tno_conscription_one_year_draft
-	tno_women_noncombat_only
-	tno_political_parties_multiparty_system
-	tno_military_supervision_rules_of_engagement
-	tno_racial_integration_integrated_military
-	tno_draft_exemptions_educational_deferment
-	tno_trade_unions_nonsocialist_allowed
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_universal
-	tno_refugees_skilled
-	tno_trade_laws_export_focus
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_high_income_weighted
-	tno_minimum_wage_acceptable_minimum
-	tno_max_workhours_8_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_acceptable_pensions
-	tno_unemployment_low_subsidies
-	tno_safety_excellent_regulations
-	tno_health_care_universal_health_care
-	tno_pollution_some_regulations
-	tno_education_subsidised_higher_education
-	tno_penal_system_rehabilitation
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_segregation
-	tno_security_police
-	construction_level_7
 }
 
-set_variable = { liberal_seats = 48 }
-set_variable = { country_seats = 19 }
-set_variable = { labor_seats = 55 }
-set_variable = { coalitions_seats = 67 }
-				add_to_variable = { 
-					var = coalitions_seats_majority
-					value = coalitions_seats
-				}
-				subtract_from_variable = {
-					var = coalitions_seats_majority
-					value = labor_seats
-				}
-				add_to_variable = {
-					var = labor_seats_majority
-					value = labor_seats
-				}
-				subtract_from_variable = {
-					var = labor_seats_majority
-					value = coalitions_seats
-				}

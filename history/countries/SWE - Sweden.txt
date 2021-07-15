@@ -37,42 +37,6 @@ add_ideas = {
 	SWE_folkhemmet
 	SWE_schwedenisierung
 	SWE_exports_to_germany
-
-	tno_conscription_volunteer_only
-	tno_women_noncombat_only
-	tno_military_supervision_watchdog_groups
-	tno_military_spending_medium_spending
-	tno_training_combat_schooling
-	tno_racial_integration_integrated_military
-	tno_draft_exemptions_educational_deferment
-	tno_trade_laws_export_focus
-	tno_economic_focus_early_mobilization
-	tno_tax_rate_high_taxes
-	tno_income_taxation_low_income_weighted
-	tno_minimum_wage_acceptable_minimum
-	tno_max_workhours_8_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_acceptable_pensions
-	tno_unemployment_generous_subsidies
-	tno_political_parties_multiparty_system
-	tno_religious_rights_secularism
-	tno_trade_unions_all_allowed
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_support_disenfranchised
-	tno_refugees_vetted_entry
-	tno_safety_excellent_regulations
-	tno_health_care_universal_health_care
-	tno_pollution_few_regulations
-	tno_education_free_education
-	tno_penal_system_incarceration
-	tno_lgbt_rights_equal_rights
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_equal_rights
-	tno_security_police
-	construction_level_4
 }
 
 create_country_leader = {

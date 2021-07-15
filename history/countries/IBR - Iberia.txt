@@ -173,16 +173,6 @@ set_research_slots = 3
 
 set_convoys = 200
 
-set_variable = { IBR_dam_progress = 43.5 }
-set_variable = { IBR_dam_cost = 194 }
-set_variable = { IBR_dam_budget = 9 }
-set_variable = { IBR_dam_cost_workers = 21 }
-set_variable = { IBR_dam_cost_upgrades = 73 }
-set_variable = { IBR_dam_cost_maintenance = 100 }
-set_variable = { IBR_dam_workers = 5 }
-set_variable = { IBR_dam_time = 260 }
-set_country_flag = IBR_manuel_elices_dam
-
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.2.16"
@@ -623,43 +613,6 @@ create_navy_leader = {
 	} 
 	id = 1318
 }
-
-add_opinion_modifier = { target = BSQ modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = PRT modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = SPS modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = SPA modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = SPR modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = CNT modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = CTL modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = FSR modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = FSR modifier = IBR_NRF_NuffSaid }
-add_opinion_modifier = { target = POR modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = RPP modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = PPR modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = GAL modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = GNS modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = ETA modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = MOR modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = WAI modifier = IBR_Iberian_Wars_Contender }
-add_opinion_modifier = { target = IBR modifier = IBR_Iberian_Wars_Contender }
-	
-add_opinion_modifier = { target = BSQ modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = PRT modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = SPS modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = SPA modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = SPR modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = CNT modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = CTL modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = FSR modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = POR modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = RPP modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = PPR modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = GAL modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = GNS modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = ETA modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = MOR modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = WAI modifier = IBR_Iberian_Wars_Contender_2 }
-add_opinion_modifier = { target = IBR modifier = IBR_Iberian_Wars_Contender_2 }
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

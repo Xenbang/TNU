@@ -7,10 +7,7 @@ state={
 	}
 
 	history={
-		owner = SLG
-		add_core_of = FRA
-		add_core_of = ALG
-		add_core_of = SLG
+		owner = IBR
 		victory_points = { 7132 5 }
 		victory_points = { 7008 1 }
 		buildings = {

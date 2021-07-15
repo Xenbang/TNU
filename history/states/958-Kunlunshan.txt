@@ -3,16 +3,6 @@ state={
 	name="STATE_958"
 
 	history={
-		owner = SIK
-		add_core_of = SIK
-		add_core_of = ETR
-
-		buildings = {
-			infrastructure = 1
-		}
-		victory_points = { 8042 10 }
-		victory_points = { 1943 5 }
-		victory_points = { 5736 5 }
 	}
 
 	provinces={

@@ -4,7 +4,7 @@ state = {
 	name = "STATE_637"
 
 	history = {
-		owner = KMC
+		owner = MAG
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -13,7 +13,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = KMC
+		add_core_of = MAG
 		victory_points = { 4728 3 }
 	}
 

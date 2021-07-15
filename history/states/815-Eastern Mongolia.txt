@@ -4,18 +4,6 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = MEN
-		add_core_of = MEN
-		add_core_of = MON
-		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = { 10647 10 }
-		victory_points = { 4856 10 }
-		victory_points = { 12669 10 }
-		victory_points = { 10708 10 }
-
 	}
 
 	provinces={

@@ -80,14 +80,4 @@ create_country_leader = {
 }
 
 add_ideas = {
-	TRI_Member
-    YEM_the_Aden_arsenal
-	YEM_saudi_influence
-	YEM_tribes_and_Sects
-	
-	#ministers#
-	YEM_Qahtan_Muhammad_al_Shaabi_hog
-	YEM_Abdul_Aziz_Abdul_Ghani_eco
-	YEM_Abdul_Rahman_al_Eryani_sec
-	YEM_Ahmad_Muhammad_Numan_for
 }

@@ -10,15 +10,6 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BRZ
-		add_core_of = BRZ
-		buildings = {
-			infrastructure = 2
-			12885 = {
-				naval_base = 1
-			}
-		}
-		victory_points = { 12885 1 }
 	}
 
 	provinces={

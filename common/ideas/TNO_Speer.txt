@@ -10,6 +10,30 @@
 ideas = {
     country = {
 	### Speer GCW Ideas ###
+	
+        GER_SGR_rheinmetall_makeshift = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_SGR_rheinmetall_makeshift"}
+
+			allowed = {
+				always = no
+			}
+
+			picture = GER_heavy_hand
+
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			equipment_bonus = {
+				MBT_equipment = {
+					build_cost_ic = -0.15 instant = yes
+					hard_attack = -0.1 instant = yes
+					breakthrough = -0.1 instant = yes 
+				}	
+			}
+		}
+
         GER_SGR_criminal_soldiers = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_SGR_criminal_soldiers"}
 
@@ -197,9 +221,11 @@ ideas = {
 			picture = GER_nationale_kriegshilfsorganisation
 
 			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_efficiency_gain_factor = 0.25
 				out_of_supply_factor = -0.05
-				supply_consumption_factor = -0.025
-				consumer_goods_factor = 0.02
+				industry_repair_factor = 0.1 
+				consumer_goods_factor = -0.05
 			}
 		}
 		
@@ -215,11 +241,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.3
 				out_of_supply_factor = -0.1
-				supply_consumption_factor = -0.025
-				industry_repair_factor = 0.2
-				equipment_conversion_speed = 0.4
-				consumer_goods_factor = 0.05
+				industry_repair_factor = 0.15
+				consumer_goods_factor = -0.1 
 			}
 		}
 		

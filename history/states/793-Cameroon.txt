@@ -4,15 +4,6 @@ state={
 	name="STATE_793"
 
 	history={
-		owner = CAO
-		buildings = {
-			infrastructure = 1
-
-		}
-		add_core_of = CAO
-		victory_points = { 10831 5 }
-		victory_points = { 6039 1 }
-
 	}
 
 	provinces={

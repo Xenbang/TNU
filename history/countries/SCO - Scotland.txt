@@ -9,7 +9,6 @@ diplomatic_relation = {
 
 }
 
-SCO_English_Minority_INIT = yes
 
 set_technology = {
 	# shipbuild_basics = 1
@@ -96,59 +95,6 @@ add_ideas = {
 	SCO_The_lonely_Ilse
 	SCO_Itchy_Trigger
 	SCO_Derry_Scapa_deal
-	#minister#
-	SCO_Arthur_Donaldson_hog
-	SCO_George_Leslie
-	SCO_Iain_Maccormick_for
-	SCO_Jimmy_Halliday
-	#political#
-	tno_political_parties_multiparty_system
-	tno_religious_rights_secularism
-	tno_trade_unions_all_allowed
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_allowed
-	tno_press_rights_free_press
-	tno_vote_franchise_universal
-	tno_refugees_open
-	#military#
-	tno_conscription_one_year_draft
-	tno_women_military_assistance
-	tno_military_supervision_rules_of_engagement
-	tno_military_spending_large_spending
-	tno_training_basic_training
-	tno_racial_integration_integrated_military
-	tno_draft_exemptions_civil_service_deferment
-	#economic#
-	tno_trade_laws_limited_exports
-	tno_economic_focus_civilian_economy
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_flat_taxes
-	tno_minimum_wage_low_minimum_wage
-	tno_max_workhours_12_hour_work_day
-	tno_child_labor_illegal
-	tno_pensions_acceptable_pensions
-	tno_unemployment_no_subsidies
-	#social#
-	tno_safety_minimal_regulations
-	tno_health_care_public_health_care
-	tno_pollution_few_regulations
-	tno_education_public_education
-	tno_penal_system_incarceration
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_women_in_the_workplace
-	tno_minorities_equal_rights
-	tno_security_police
-	#soc_Dev
-	tno_poverty_rate_10
-	tno_academic_base_secondary_schooling
-	tno_research_facilities_modern
-	tno_agriculture_mass_mechanized
-	tno_industrial_equipment_factory_complexes
-	tno_industrial_expertise_experienced
-	tno_army_professionalism_professional
-	tno_nuclear_stockpile_none
-	construction_level_6
 }
 
 set_politics = {	

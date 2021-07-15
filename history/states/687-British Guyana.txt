@@ -11,15 +11,6 @@ state={
 	}
 
 	history={
-		owner = BRZ
-		add_core_of = BRZ
-		buildings = {
-			infrastructure = 2
-			4982 = {
-				naval_base = 1
-			}
-		}
-		victory_points = { 4982 5 }
 	}
 	
 	provinces={

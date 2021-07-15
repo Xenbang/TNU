@@ -7,16 +7,6 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SIK
-		add_core_of = SIK
-		add_claim_by = ETR
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-		victory_points = { 4823 10 }
-		victory_points = { 1708 10 }
-
 	}
 
 	provinces={

@@ -8,20 +8,6 @@ state={
 	}
 
 	history={
-		owner = SIK
-		add_core_of = SIK
-		add_claim_by = ETR
-		
-		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 3
-
-		}
-		victory_points = { 4709 30 }
-		victory_points = { 1703 10 }
-		victory_points = { 12656 10 }
-
 	}
 
 	provinces={

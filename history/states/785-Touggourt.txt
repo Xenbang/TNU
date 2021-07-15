@@ -4,10 +4,7 @@ state={
 	name="STATE_785"
 
 	history={
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ILG
-		add_core_of = ALG
+		owner = ITA 
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2

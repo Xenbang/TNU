@@ -1,7 +1,7 @@
 ﻿GGR_infantry = {
 	name = "Infanterie-Division"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -76,7 +76,7 @@
 GGR_militia = {
 	name = "Bürgerwehr"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -151,7 +151,7 @@ GGR_militia = {
 GGR_panzer = {
 	name = "Panzer-Division"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -241,7 +241,7 @@ GGR_waffen = {
 GGR_paratroopers = {
 	name = "Fallschirmjäger"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -286,7 +286,7 @@ GGR_paratroopers = {
 GGR_Schocktruppen = {
 	name = "Schocktruppen"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -332,7 +332,7 @@ GGR_Schocktruppen = {
 GGR_marines = {
 	name = "Seebataillon"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -377,7 +377,7 @@ GGR_marines = {
 GGR_mountaineers = {
 	name = "Gebirgsjäger"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -422,7 +422,7 @@ GGR_mountaineers = {
 GGR_motorized = {
 	name = "Motorisierte Infanterie-Division"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 
@@ -467,7 +467,7 @@ GGR_motorized = {
 GGR_APC = {
 	name = "APC Infanterie-Division"
 
-	for_countries = { GGR RNW SGR }
+	for_countries = { GGR }
 
 	can_use = { always = yes }
 

@@ -2,7 +2,7 @@
 IBR_SS_LIST = {
 	name = NAME_THEME_IBR_SUBMARINES
 
-	for_countries = { IBR POR GNS PPR RPP SPA SPS SPR FZL FSR GAL TBA BSQ CTL CNT ADL }
+	for_countries = { IBR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -33,7 +33,7 @@ IBR_SS_LIST = {
 IBR_DD_LIST = {
 	name = NAME_THEME_IBR_DESTROYERS
 	
-	for_countries = { IBR POR GNS PPR RPP SPA SPS SPR FZL FSR GAL TBA BSQ CTL CNT ADL }
+	for_countries = { IBR }
 	
 	type = ship 
 	ship_types = { ship_hull_light destroyer }
@@ -66,7 +66,7 @@ IBR_DD_LIST = {
 IBR_FR_LIST = {
 	name = NAME_THEME_IBR_FRIGATES
 	
-	for_countries = { IBR POR GNS PPR RPP SPA SPS SPR FZL FSR GAL TBA BSQ CTL CNT ADL }
+	for_countries = { IBR }
 	
 	type = ship 
 	ship_types = { ship_hull_more_light frigate }
@@ -99,7 +99,7 @@ IBR_FR_LIST = {
 IBR_CR_LIST = {
 	name = NAME_THEME_IBR_CORVETTES
 	
-	for_countries = { IBR POR GNS PPR RPP SPA SPS SPR FZL FSR GAL TBA BSQ CTL CNT ADL }
+	for_countries = { IBR }
 	
 	type = ship 
 	ship_types = { ship_hull_very_light corvette }

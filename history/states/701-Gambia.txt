@@ -4,11 +4,7 @@ state={
 	name="STATE_701"
 	manpower = 252388
 	
-	history=
-	{
-		add_core_of = JOL
-		owner = JOL
-		victory_points = { 4989 1 }
+	history = {
 	}
 	
 	state_category = pastoral

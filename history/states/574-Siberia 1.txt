@@ -4,11 +4,11 @@ state={
 	name="STATE_574"
 	resources={
 		steel = 68
-		tungsten = 18
+		tungsten = 30
 	}
 
 	history={
-		owner = YAK
+		owner = MAG
 		victory_points = { 10641 3 }
 		buildings = {
 			infrastructure = 3
@@ -18,7 +18,7 @@ state={
 
 		}
 		
-		add_core_of = YAK
+		add_core_of = MAG
 	}
 
 	provinces={

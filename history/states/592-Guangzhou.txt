@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = GNG
-		add_core_of = GNG
+		owner = JAP
+		add_core_of = JAP
 		
 		
 		buildings = {

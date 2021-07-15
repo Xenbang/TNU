@@ -1,0 +1,304 @@
+#########################
+GER_GCW_mechanic_category = {
+	GER_GCW_factory_bombings = {
+		visible = {
+			FROM = { exists = yes }
+		}
+
+		target_array = global.GCW_contenders
+
+		target_trigger = {
+			FROM = {
+				has_war_with = ROOT
+				has_capitulated = no
+			}
+		}
+
+		available = {
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 0
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GER_GCW_factory_bombings"
+			GCW_decrease_influence_small = yes
+			set_country_flag = GCW_decision_taken
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GER_GCW_factory_bombings"
+			clr_country_flag = GCW_decision_taken
+			FROM = {
+				random_state = {
+					limit = {
+						is_controlled_by = FROM
+						arms_factory > 0
+					}
+					damage_building = {
+						type = arms_factory
+						damage = 4.0
+					}
+				}
+				random_state = {
+					limit = {
+						is_controlled_by = FROM
+						arms_factory > 0
+					}
+					damage_building = {
+						type = arms_factory
+						damage = 4.0
+					}
+				}
+			}
+		}
+	}
+	GER_GCW_steal_equipment = {
+		visible = {
+			check_variable = { show_GCW_influence_actions > 0 }
+			FROM = { exists = yes }
+		}
+
+		target_array = global.GCW_contenders
+
+		target_trigger = {
+			FROM = {
+				has_war_with = ROOT
+				has_capitulated = no
+				has_equipment = { infantry_equipment > 3999 }
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GCW_influence_more_than_or_equals_5_tt
+				check_variable = { GCW_influence > 4 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 0
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GER_GCW_steal_equipment"
+			GCW_decrease_influence_small = yes
+			set_country_flag = GCW_decision_taken
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GER_GCW_steal_equipment"
+			clr_country_flag = GCW_decision_taken
+			FROM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -4000
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 4000
+			}
+		}
+	}
+	GER_GCW_sabotage_frontlines = {
+		visible = {
+			check_variable = { show_GCW_influence_actions > 0 }
+			FROM = { exists = yes }
+		}
+
+		target_array = global.GCW_contenders
+
+		target_trigger = {
+			FROM = {
+				has_war_with = ROOT
+				has_capitulated = no
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GCW_influence_more_than_or_equals_5_tt
+				check_variable = { GCW_influence > 4 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 0
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GER_GCW_sabotage_frontlines"
+			GCW_decrease_influence_small = yes
+			set_country_flag = GCW_decision_taken
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GER_GCW_sabotage_frontlines"
+			clr_country_flag = GCW_decision_taken
+			# timed idea to lower planning speed and bonus
+			FROM = {
+				add_timed_idea = {
+					idea = GCW_sabotaged_frontlines
+					days = 25
+				}
+			}
+		}
+	}
+	GER_GCW_disrupt_supply_lines = {
+		visible = {
+			check_variable = { show_GCW_influence_actions > 0 }
+			FROM = { exists = yes }
+		}
+
+		target_array = global.GCW_contenders
+
+		target_trigger = {
+			FROM = {
+				has_war_with = ROOT
+				has_capitulated = no
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GCW_influence_more_than_or_equals_5_tt
+				check_variable = { GCW_influence > 4 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 0
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GER_GCW_disrupt_supply_lines"
+			GCW_decrease_influence_small = yes
+			set_country_flag = GCW_decision_taken
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GER_GCW_disrupt_supply_lines"
+			clr_country_flag = GCW_decision_taken
+			# timed idea to increase attrition and supply consumption
+			FROM = {
+				add_timed_idea = {
+					idea = GCW_disrupted_supply_lines
+					days = 25
+				}
+			}
+		}
+	}
+	GER_GCW_start_uprisings = {
+		visible = {
+			check_variable = { show_GCW_influence_actions > 0 }
+			FROM = { exists = yes }
+		}
+
+		target_array = global.GCW_contenders
+
+		target_trigger = {
+			FROM = {
+				has_war_with = ROOT
+				has_capitulated = no
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GCW_influence_more_than_or_equals_5_tt
+				check_variable = { GCW_influence > 4 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 0
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 500
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GER_GCW_start_uprisings"
+			GCW_decrease_influence_small = yes
+			set_country_flag = GCW_decision_taken
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GER_GCW_start_uprisings"
+			clr_country_flag = GCW_decision_taken
+			FROM = {
+				random_state = {
+					limit = {
+						is_controlled_by = FROM
+						any_neighbor_state = {
+							is_controlled_by = ROOT
+						}
+					}
+					custom_effect_tooltip = GER_GCW_start_uprisings_tt
+					hidden_effect = {
+						ROOT = {
+							set_state_controller = PREV
+							if = {
+								limit = {
+									NOT = { has_template = "Bürgerwehr" }
+								}
+								division_template = {
+									name = "Bürgerwehr"
+									regiments = {
+										light_infantry = { x = 0 y = 0 }
+										light_infantry = { x = 0 y = 1 }
+										light_infantry = { x = 0 y = 2 }
+										light_infantry = { x = 1 y = 0 }
+										light_infantry = { x = 1 y = 1 }
+										light_infantry = { x = 1 y = 2 }
+										light_infantry = { x = 2 y = 0 }
+										light_infantry = { x = 2 y = 1 }
+										light_infantry = { x = 2 y = 2 }
+									}
+									support = {
+										engineer = { x = 0 y = 0 }
+										recon = { x = 0 y = 1 }
+									}
+								}
+							}
+						}
+						create_unit = {
+							division = "division_template = \"Bürgerwehr\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+							owner = ROOT
+							count = 2
+						}
+						save_event_target_as = GCW_uprising_state
+						FROM = {
+							set_state_controller = PREV
+							#country_event = gcw.34
+						}
+					}
+				}
+			}
+		}
+	}
+}

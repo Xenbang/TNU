@@ -9,13 +9,6 @@ state={
 		rubber=1
 	}
 	history={
-		owner = IBR
-		buildings = {
-			infrastructure = 2
-			12891 ={
-				naval_base = 1
-			}
-		}
 	}
 
 	provinces={

@@ -293,47 +293,4 @@ add_ideas = {
 	TUR_economic_depression_1
 	TUR_weakening_grip
 	TUR_grey_wolves_terror
-	#MINISTERS
-	TUR_Nejdet_Sancar_hog
-	TUR_Muzaffer_Ozdag_eco
-	TUR_Nihal_Atsiz_for
-	TUR_Cemal_Gursel_sec
-	#POLITICAL
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_religion
-	tno_trade_unions_illegal
-	tno_immigration_closed_borders
-	tno_slavery_outlawed
-	tno_public_meetings_regulated
-	tno_press_rights_state_press_only
-	tno_vote_franchise_no_voting
-	tno_refugees_banned
-	#SOCIAL
-	tno_safety_limited_regulations
-	tno_health_care_private_health_care
-	tno_pollution_few_regulations
-	tno_education_public_education
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	tno_gender_rights_traditional_roles
-	tno_minorities_segregation
-	tno_security_data_cohesion
-	#MILITARY
-	tno_conscription_service_by_requirement
-	tno_women_banned
-	tno_military_supervision_kill_em_all
-	tno_military_spending_large_spending
-	tno_training_combat_schooling
-	tno_racial_integration_none
-	tno_draft_exemptions_none
-	#ECONOMIC
-	tno_trade_laws_limited_exports
-	tno_economic_focus_partial_mobilization
-	tno_tax_rate_low_taxation
-	tno_income_taxation_low_income_weighted
-	tno_minimum_wage_no_minimum_wage
-	tno_max_workhours_14_hour_work_day
-	tno_child_labor_restricted
-	tno_pensions_no_pensions
-	tno_unemployment_no_subsidies
 }

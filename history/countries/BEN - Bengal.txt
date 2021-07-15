@@ -175,27 +175,7 @@ set_popularities = {
 	burgundian_system = 0
 }
 
-set_variable = {
-	var = BEN_Bengali_Ethnic_Tensions
-	value = 40
-}
-set_variable = {
-	var = BEN_Army_Independence
-	value = 40
-}
-set_variable = {
-	var = BEN_Army_Loyalty
-	value = 60
-}
-
 set_country_flag = USA_CIA_can_access_rebels
-
-add_opinion_modifier = { target = RAJ modifier = BEN_raj_sucks }
-add_opinion_modifier = { target = INC modifier = BEN_inc_sucks }
-add_opinion_modifier = { target = INF modifier = BEN_inf_sucks }
-add_opinion_modifier = { target = PAK modifier = BEN_acl_sucks }
-add_opinion_modifier = { target = SRI modifier = BEN_acl_sucks }
-
 if = {
  	limit = {
  		has_dlc = "Together for Victory"

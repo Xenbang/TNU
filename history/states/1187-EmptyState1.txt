@@ -4,9 +4,6 @@ state={
 	name="STATE_1187"
 
 	history={
-		owner = CAO
-		add_core_of = CAO
-
 	}
 
 	provinces={

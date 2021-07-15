@@ -1,7 +1,7 @@
 ﻿GER_infantry = {
 	name = "Infanterie-Division"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -76,7 +76,7 @@
 GER_panzer = {
 	name = "Panzer-Division"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -121,7 +121,7 @@ GER_panzer = {
 GER_waffen = {
 	name = "Waffen-SS"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -166,7 +166,7 @@ GER_waffen = {
 GER_paratroopers = {
 	name = "Fallschirmjäger"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -211,7 +211,7 @@ GER_paratroopers = {
 GER_special = {
 	name = "PGD Operationsgruppe"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -256,7 +256,7 @@ GER_special = {
 GER_marines = {
 	name = "Seebataillon"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -301,7 +301,7 @@ GER_marines = {
 GER_mountaineers = {
 	name = "Gebirgsjäger"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -346,7 +346,7 @@ GER_mountaineers = {
 GER_motorized = {
 	name = "Motorisierte Infanterie-Division"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 
@@ -391,7 +391,7 @@ GER_motorized = {
 GER_polizei = {
 	name = "Militärpolizei-Division"
 
-	for_countries = { GER }
+	for_countries = { GER BGR GGR }
 
 	can_use = { always = yes }
 

@@ -5,11 +5,7 @@ state={
 		989 3991 4116 7116 
 	}
 	history={
-		owner = SLG
-		add_core_of = SLG
-		add_core_of = FRA
-		#add_core_of = MOR
-		add_core_of = ALG
+		owner = IBR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

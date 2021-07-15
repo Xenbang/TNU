@@ -33,7 +33,7 @@
 SOV_INF_01 = {
 	name = "Rifle Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -466,7 +466,7 @@ SOV_INF_01 = {
 SOV_CAV_01 = {
 	name = "Cavalry Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -601,7 +601,7 @@ SOV_CAV_01 = {
 SOV_MOT_01 = {
 	name = "Motor Rifle Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -664,7 +664,7 @@ SOV_MOT_01 = {
 SOV_MEC_01 = {
 	name = "Mechanized Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -715,7 +715,7 @@ SOV_MEC_01 = {
 SOV_ARM_01 = {
 	name = "Tank Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -806,7 +806,7 @@ SOV_ARM_01 = {
 SOV_ARM_02 = {
 	name = "Tank Corps"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -897,7 +897,7 @@ SOV_ARM_02 = {
 SOV_ARM_03 = {
 	name = "Guard Tank Corps"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { has_war = yes }
 
@@ -988,7 +988,7 @@ SOV_ARM_03 = {
 SOV_ARM_04 = {
 	name = "Tank Brigade"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1079,7 +1079,7 @@ SOV_ARM_04 = {
 SOV_PAR_01 = {
 	name = "Paratrooper Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1135,7 +1135,7 @@ SOV_PAR_01 = {
 SOV_MAR_01 = {
 	name = "Marine Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1165,7 +1165,7 @@ SOV_MAR_01 = {
 SOV_MNT_01 = {
 	name = "Mountain Rifle Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1207,7 +1207,7 @@ SOV_MNT_01 = {
 SOV_GAR_01 = {
 	name = "Garrison Division"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1306,7 +1306,7 @@ SOV_GAR_01 = {
 SOV_GRD_01 = {
 	name = "Guards Rifles"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1455,7 +1455,7 @@ SOV_GRD_01 = {
 SOV_GMC_01 = {
 	name = "Guards Mechanized"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 
@@ -1484,7 +1484,7 @@ SOV_GMC_01 = {
 SOV_GTC_01 = {
 	name = "Guards Tanks"
 
-	for_countries = { SOV }
+	for_countries = { WRS }
 
 	can_use = { always = yes }
 

@@ -6,15 +6,6 @@ state={
 	
 	state_category = enclave
 	history={
-		owner = BLZ
-		add_core_of = BLZ
-		add_claim_by = GUA
-		buildings = {
-			infrastructure = 4
-			2077 = {
-				naval_base = 1
-			}
-		}
 	}
 	provinces= { 2077 }
 }

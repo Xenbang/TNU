@@ -3,16 +3,6 @@ state = {
 	name = "STATE_575"
 
 	history = {
-		owner = CHR
-		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1
-
-		}
-		victory_points = { 4743 1 }
-		add_core_of = CHR
-		add_extra_state_shared_building_slots = 1
 	}
 
 	provinces = {
