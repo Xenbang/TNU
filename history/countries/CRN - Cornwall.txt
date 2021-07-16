@@ -176,9 +176,6 @@ add_manpower = 29000
 
 add_ideas = {
 	Pakt_Military_Authority
-	CRN_garrison
-	CRN_Extreme_Overextension
-	CRN_No_Gov
 }
 
 create_country_leader = {

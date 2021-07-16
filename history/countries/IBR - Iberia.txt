@@ -196,12 +196,6 @@ set_popularities = {
 
 add_ideas = {
 	TRI_Founder_IB
-	The_Gibraltar_Dam
-	Disorderly_Federal_Army
-	Betray_Old_Guard
-	Iberian_Economic_Nightmare
-	IBR_State_MedStrong
-	Crippled_Sovereignty 
 }
 
 if = {

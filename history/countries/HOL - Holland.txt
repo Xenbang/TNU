@@ -32,11 +32,6 @@ country_lock_all_division_template = yes
 add_ideas = {
 	#FACTION
 	Pakt_Integrated_Reichskommissariat
-	#COUNTRY
-	HOL_busy_ports
-	HOL_decaying_verzuiling
-	HOL_german_economy 
-	HOL_apathetic_populace 
 }
 
 

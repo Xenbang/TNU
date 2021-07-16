@@ -67,7 +67,4 @@ create_country_leader = {
 }
 
 add_ideas = {
-    OMA_the_old_sultan
-	OMA_the_young_heir
-	OMA_whispers_in_the_desert
 }

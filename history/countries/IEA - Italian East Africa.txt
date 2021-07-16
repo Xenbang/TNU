@@ -11,11 +11,6 @@ country_event = { id = IEA.41 days = 297 } # Ameado dies # Oct 24 1962
 country_event = { id = IEA.999 days = 1110 } # IEA collapse or decol # Jan 15 1966
 
 add_ideas = {	
-	IEA_colonia_primigenia
-	IEA_the_neverending_war
-	IEA_somali_youth_league
-	IEA_legacy_mau_mau_rebellion
-	IEA_idea_colonial_government
 }
 
 # Starting tech

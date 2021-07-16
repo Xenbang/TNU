@@ -7,12 +7,6 @@ set_stability = 0.62
 add_ideas = {
 	#Faction
 	Pakt_Protektorat
-	#National
-	CZE_Kurt_Daluege_hog
-	CZE_Karl_Hermann_Frank_for
-	CZE_Walter_Bertsch_eco
-	CZE_Rudolf_Toussaint_sec
-	CZE_Mysterious_Insurgency
 }
 
 set_politics = {	

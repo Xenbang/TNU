@@ -41,8 +41,4 @@ create_country_leader = {
 }
 
 add_ideas = {
-	CUB_idea_cuban_revolution
-	CUB_idea_reform_frenzy
-	CUB_idea_uncertain_direction
-	CUB_idea_question_democracy
 }

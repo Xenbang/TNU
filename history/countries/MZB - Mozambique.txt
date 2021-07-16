@@ -9,11 +9,6 @@ set_major = yes
 add_ideas = {
 	#FACTION
 	Pakt_Autonomous_Reichskommissariat
-	#SPIRITS
-    MZB_Just_Another_Camp
-    MZB_Aryan_Only_SS
-	MZB_The_Unending_War
-	MZB_Surrounded_By_Degeneracy_1
 }
 
 set_research_slots = 3

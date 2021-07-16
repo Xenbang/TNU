@@ -8,6 +8,19 @@ add_ideas = {
 
 }
 
+declare_war_on = {
+	target = SGR
+	type = annex_everything
+}
+declare_war_on = {
+	target = HGR
+	type = annex_everything
+}
+declare_war_on = {
+	target = BGR
+	type = annex_everything
+}
+
 
 set_technology = {
 	##INFANTRY##

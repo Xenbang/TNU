@@ -12,10 +12,6 @@ set_politics = {
 add_ideas = {
 	#Faction
 	Pakt_Marionettenstaat
-	#Spirits
-	SER_Refugee_Crisis
-	SER_The_Occupation_Regime
-	SER_Widespread_Insurrection
 }
 
 set_popularities = {

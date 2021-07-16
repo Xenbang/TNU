@@ -5,8 +5,6 @@ oob = "GGN_1962"
 add_ideas = {
 	#FACTION
 	Pakt_Protektorat
-	#NATIONAL
-	POL_underground_state
 }
 
 set_stability = 0.62

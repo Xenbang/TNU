@@ -151,10 +151,4 @@ create_country_leader = {
 
 add_ideas = {
 	TRI_Member
-	GRE_dysfunctional_government
-	GRE_elusive_resistance
-	GRE_triumvirate_garrisons
-	GRE_security_battalions
-	GRE_the_cyprus_situation
-
 }

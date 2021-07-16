@@ -91,10 +91,4 @@ create_country_leader = {
 
 
 add_ideas = {
-	TRI_Member
-	IRQ_july_14_legacy
-	IRQ_dawa_ascendant
-	IRQ_italian_interference
-	IRQ_ineffecient_oil_industry
-	IRQ_the_spectre_of_baathism
 }

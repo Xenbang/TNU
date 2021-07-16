@@ -2,17 +2,6 @@
 
 #oob = "BUL_1962"
 
-add_ideas = {
-	Pakt_Bundnispartner
-	
-	BUL_Dobri_Bozhilov_hog
-	BUL_Asen_Hristoforov_eco
-	BUL_Dimitar_Peshev_for
-	
-	BUL_the_tsars_government
-	BUL_german_forged_shackles
-	BUL_the_fatherland_front
-}
 set_technology = {
 	electronic_mechanical_engineering = 1
 	

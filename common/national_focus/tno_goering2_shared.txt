@@ -16,6 +16,70 @@ shared_focus = {
 	y = 0
 }
 
+shared_focus = {
+	id = GGR_declare_germany_my_fly_zone
+	icon = GFX_workers_fist
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_burgerkreig
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_declare_germany_my_fly_zone"
+		add_stability = 0.05
+	}
+	x = 12
+	y = 1
+}
+
+shared_focus = {
+	id = GGR_luftwaffe_grenadiers
+	icon = GFX_workers_fist
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_declare_germany_my_fly_zone
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_luftwaffe_grenadiers"
+		add_stability = 0.05
+	}
+	x = 11
+	y = 2
+}
+
+shared_focus = {
+	id = GGR_sound_the_gjallarhon
+	icon = GFX_workers_fist
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_declare_germany_my_fly_zone
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_sound_the_gjallarhon"
+		add_stability = 0.05
+	}
+	x = 13
+	y = 2
+}
+
+shared_focus = {
+	id = GGR_unleash_our_valkyries
+	icon = GFX_workers_fist
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_sound_the_gjallarhon
+	}
+	prerequisite = {
+		focus = GGR_luftwaffe_grenadiers
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_unleash_our_valkyries"
+		add_stability = 0.05
+	}
+	x = 12
+	y = 3
+}
+
  
 shared_focus = {
 	id = GGR_rally_the_workers
@@ -28,7 +92,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_rally_the_workers"
 		add_stability = 0.05
 	}
-	x = 6
+	x = 4
 	y = 1
 }
 
@@ -47,7 +111,7 @@ shared_focus = {
 			producer = GER
 		}
 	}
-	x = 5
+	x = 3
 	y = 2
 }
 
@@ -62,7 +126,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_equipment_exploitation"
 		add_ideas = GGR_reliability_issues
 	}
-	x = 7
+	x = 5
 	y = 2
 }
 
@@ -80,7 +144,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_production_pipeline"
 		add_ideas = GGR_Production_pipeline
 	}
-	x = 6
+	x = 4
 	y = 3
 }
 
@@ -99,7 +163,7 @@ shared_focus = {
 			days = 60
 		}
 	}
-	x = 6
+	x = 4
 	y = 4
 }
 
@@ -173,13 +237,14 @@ shared_focus = {
 	prerequisite = {
 		focus = GGR_burgerkreig
 	}
+	relative_position_id = GGR_burgerkreig
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_rally_the_troops"
 		add_command_power = 25
 		add_manpower = 7500
 		add_stability = 0.05
 	}
-	x = 10
+	x = 0
 	y = 1
 }
 
@@ -195,7 +260,7 @@ shared_focus = {
 		add_stability = 0.10
 		add_war_support = 0.10
 	}
-	x = 9
+	x = 7
 	y = 2
 }
 
@@ -210,7 +275,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_for_the_glory"
 		add_manpower = 20000
 	}
-	x = 11
+	x = 9
 	y = 2
 }
 
@@ -228,7 +293,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_all_brave_sons"
 		add_manpower = 15000
 	}
-	x = 10
+	x = 8
 	y = 3
 }
 
@@ -312,6 +377,9 @@ shared_focus = {
 	cost = 4.00
 	prerequisite = {
 		focus = GGR_all_brave_sons
+	}
+	prerequisite = {
+		focus = GGR_unleash_our_valkyries
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GGR_fight_damn_it"

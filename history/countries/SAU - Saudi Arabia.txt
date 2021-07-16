@@ -7,39 +7,6 @@ add_manpower = 5631
 # create_faction = "Arab League"
 
 add_ideas = {
-	##POLITICAL LAWS##
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_religion
-	tno_trade_unions_illegal
-	tno_immigration_quota_immigration
-	tno_slavery_outlawed
-	tno_public_meetings_regulated
-	##MILITARY LAWS###
-	tno_conscription_volunteer_only
-	tno_women_banned
-	tno_military_supervision_military_policing
-	tno_military_spending_medium_spending
-	tno_training_minimal_training
-	tno_racial_integration_segregated_regiments
-	##SOCIAL LAWS##
-	tno_safety_minimal_regulations
-	tno_health_care_private_health_care
-	tno_pollution_no_controls
-	tno_education_public_education
-	tno_penal_system_capital_punishment
-	tno_lgbt_rights_lgbt_outlawed
-	##ECONOMIC LAWS##
-	tno_trade_laws_export_focus
-	tno_economic_focus_civilian_economy
-	tno_tax_rate_medium_taxation
-	tno_income_taxation_elite_tax_exemptions
-	tno_minimum_wage_low_minimum_wage
-	tno_max_workhours_unlimited_work_day
-	## ideas
-	SAU_defenders_of_the_umma
-	SAU_salafi_ascendancy
-	SAU_kingdom_of_blacck_gold
-	SAU_ARCO_ENI_memorandum_of_understanding
 }
 
 set_technology = {

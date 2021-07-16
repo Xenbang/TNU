@@ -220,16 +220,6 @@ add_manpower = 60000
 set_stability = 0.8
 set_war_support = 0.6
 
-add_ideas = {
-	#FACTION
-	Pakt_Autonomous_Reichskommissariat
-	#SPIRITS
-	CAU_tiflis_three
-	CAU_bergbaureich
-	CAU_shipments_to_ger
-	CAU_stratified
-}
-
 set_politics = {
 	ruling_party = burgundian_system
 	last_election = "1933.3.5"

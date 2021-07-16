@@ -202,8 +202,6 @@ add_ideas = {
 	##STANDARD##
 	RUS_terror_bombing
 	RUS_warlord_manpower
-	WRS_veterans_of_the_long_war
-	WRS_agricultural_insecurity
 }
 
 ### Country Leader ###

@@ -3,10 +3,6 @@
 oob = "WAL_1962"
 
 add_ideas = {
-	WAL_Welsh_CounterCulture
-	WAL_Free_Welsh_Army
-	#welsh_counterculture
-	#free_welsh_army
 }
 
 set_technology = {

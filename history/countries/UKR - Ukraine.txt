@@ -8,11 +8,6 @@ set_convoys = 120
 add_ideas = {
 	##FACTION##
 	Pakt_Autonomous_Reichskommissariat
-	##SPIRITS##
-	UKR_breadbasket_of_the_reich
-	UKR_partyzanschyna
-	UKR_shroud_of_generalplan_ost
-	UKR_land_of_contrasts
 }
 
 set_technology = {

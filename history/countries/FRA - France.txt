@@ -11,18 +11,6 @@ add_manpower = 32000
 add_ideas = {
 	#FACTION
 	Pakt_Mitstreiter
-
-	#MINISTERS
-	FRA_Pierre_Poujade_hog
-	FRA_Marcel_Peyrouton_for
-	FRA_Yves_Bouthillier_eco
-	FRA_Charles_Huntziger_sec
-
-	#SPIRITS
-	FRA_economic_meltdown
-	FRA_the_OAS
-	FRA_les_annees_noires
-	FRA_the_treaty_of_vichi #Added via on_startup on_action 
 }
 
 set_technology = {

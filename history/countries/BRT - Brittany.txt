@@ -98,14 +98,6 @@ if = {
 	set_naval_oob = "BRT_1962_navy_legacy"
 }
 
-add_ideas = {
-		#Spirits
-	BRT_europes_staple_port
-	BRT_breton_national_committee
-	BRT_the_bezen_perrot
-	Pakt_Marionettenstaat
-}
-
 set_research_slots = 2
 set_convoys = 100
 set_stability = 0.45

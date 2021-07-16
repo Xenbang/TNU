@@ -335,6 +335,10 @@ BGR = {
 	color = rgb { 99 105 90 }
 	color_ui = rgb { 99 105 90 }
 }
+BRG = {
+	color = rgb { 53 0 70 } 
+	color_ui = rgb { 53 0 70 } 
+}
 BRT = {
 	color = rgb { 144 160 179 }
 	color_ui = rgb { 144 160 179 }

@@ -439,18 +439,5 @@ create_navy_leader = {
 }
 
 add_ideas = {
-	AST_1961_Recession
-	AST_White_Australia_Policy
-	AST_Looming_Japanese_Empire
-	AST_Unpopular_Draft
-	
-	#FACTION STATUS
-	OFN_Independent_Member
-	#ministers
-	AST_John_McEwen_hog
-	AST_Paul_Hasluck_for
-	AST_Les_Bury_eco
-	AST_Doug_Anthony_sec
-
 }
 

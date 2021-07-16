@@ -1561,12 +1561,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_loot_icon"
-		texturefile = "gfx/texticons/loot_icon_14x14.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
 		name = "GFX_science_icon"
 		texturefile = "gfx/texticons/science_icon.dds"
 		legacy_lazy_load = no
@@ -1680,49 +1674,6 @@ spriteTypes = {
 		texturefile = "gfx/texticons/counter_intelligence.dds"
 		legacy_lazy_load = no
 	}
-
-	spriteType = {
-		name = "GFX_counter_intelligence_GER"
-		texturefile = "gfx/texticons/counter_intelligence_GER.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_counter_intelligence_JAP"
-		texturefile = "gfx/texticons/counter_intelligence_JAP.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_counter_intelligence_USA"
-		texturefile = "gfx/texticons/counter_intelligence_USA.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_megacorp"
-		texturefile = "gfx/texticons/megacorp.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_megacorp_larger"
-		texturefile = "gfx/texticons/megacorp_larger.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_ZOL_small"
-		texturefile = "gfx/flags/small/ZOL.tga"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_ZOL_med"
-		texturefile = "gfx/flags/medium/ZOL.tga"
-		legacy_lazy_load = no
-	}
-
 	spriteType = {
 		name = "GFX_artillery_texticon"
 		texturefile = "gfx/texticons/artillery_texticon.dds"
@@ -1788,145 +1739,7 @@ spriteTypes = {
 		texturefile = "gfx/texticons/GFX_bad_boy_point.dds"
 		legacy_lazy_load = no
 	}
-	
-	spriteType = {
-		name = "GFX_good_boy_point"
-		texturefile = "gfx/texticons/GFX_good_boy_point.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_diamond_texticon"
-		texturefile = "gfx/texticons/diamond.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_regime_stability_texticon"
-		texturefile = "gfx/texticons/regime_stability_texticon.dds"
-		legacy_lazy_load = no
-	}
 
-	spriteType = {
-		name = "GFX_social_outlook_texticon"
-		texturefile = "gfx/texticons/social_outlook_texticon.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_Goch_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_Goch.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_ILP_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_ILP.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_Independents_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_Independents.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_MSA_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_MSA.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_NDL_Democrats_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_NDL_Democrats.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_NDL_NewWhigs_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_NDL_NewWhigs.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_NDL_Patriots_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_NDL_Patriots.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_NF_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_NF.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_Plaid_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_Plaid.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_RP_Hardliners_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_RP_Hardliners.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_RP_Moderates_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_RP_Moderates.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_RP_Reformists_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_RP_Reformists.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_RP_Thatcherites_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_RP_Thatcherites.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_SLP_Pollitites_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_SLP_Pollitites.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_SLP_Progress_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_SLP_Progress.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_SNP_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_SNP.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_UE_Liberals_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_UE_Liberals.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_UE_MacMillanists_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_UE_MacMillanists.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_UP_texticon"
-		texturefile = "gfx/interface/ElectionSeason_gui/PartyIcons/Small/ElectionSeason_PartyIcons_Small_UP.dds"
-		legacy_lazy_load = no
-	}
-	
 	spriteType = {
 		name = "GFX_encryption_texticon"
 		texturefile = "gfx/texticons/encryption_texticon.dds"
@@ -1972,32 +1785,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_tungsten_texticon"
 		texturefile = "gfx/texticons/resource_tungsten_texticon.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_BRA_voter_apathy"
-		texturefile = "gfx/texticons/bra_voter_apathy.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_BRA_us_backing"
-		texturefile = "gfx/texticons/bra_us_backing.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_BRA_mil_support"
-		texturefile = "gfx/texticons/bra_mil_support.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_BRA_govt_support"
-		texturefile = "gfx/texticons/bra_govt_support.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_credits_CSS_Icon"
-		texturefile = "gfx/texticons/credits_CSS_Icon.dds"
 		legacy_lazy_load = no
 	}
 }

@@ -10,13 +10,6 @@ set_country_flag = gui_alert_visible
 set_major = yes
 
 add_ideas = {
-	#FACTION
-	Pakt_Autonomous_Reichskommissariat
-	#SPIRITS
-    COG_Heart_Of_Afrika_7
-	COG_Hands_Off_Administration
-	COG_Soldiers_Of_Fortune
-	COG_Lobster_War
 }
 
 set_research_slots = 3

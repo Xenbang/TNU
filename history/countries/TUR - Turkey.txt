@@ -289,8 +289,4 @@ create_corps_commander = {
 
 add_ideas = {
 	TRI_Founder_TR
-	#STARTING
-	TUR_economic_depression_1
-	TUR_weakening_grip
-	TUR_grey_wolves_terror
 }

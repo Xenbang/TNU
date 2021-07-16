@@ -19,9 +19,6 @@ set_variable = { UNCLE_SAM_weeklymanpower = 300 }
 
 add_ideas = {
 	OFN_Observer
-    SAF_The_Empty_Throne
-	SAF_Desperate_Neutrality
-	SAF_Divided_Nation
 }
 
 set_research_slots = 3

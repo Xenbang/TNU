@@ -7,11 +7,6 @@ add_manpower = 10000
 add_ideas = {
 	##STANDARD##
 	RUS_terror_bombing
-	DON_Spychalski_Bizarre_Dictatorship_idea
-	DON_nation_of_survivors_0
-	DON_polish_rule_3
-	DON_base_idea
-	RUS_warlord_manpower
 }
 
 set_technology = {

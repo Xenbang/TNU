@@ -5,10 +5,6 @@ oob = "ERS_1962"
 add_ideas = {
 	### Standard ###
 	RUS_warlord_manpower
-	RUS_siberia_plan_startscreen
-	ERS_formation_of_the_salons
-	ERS_warlord_of_the_city
-	ERS_provisional_government
 }
 
 set_technology = {

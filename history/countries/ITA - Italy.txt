@@ -265,10 +265,6 @@ if = {
 	}
 }
 
-#give_guarantee = SAU
-#give_guarantee = OMA
-#give_guarantee = IRQ
-
 add_opinion_modifier = { target = IRQ modifier = ITA_oil_trade }
 add_opinion_modifier = { target = PER modifier = ITA_oil_trade }
 
@@ -1443,11 +1439,6 @@ if = {
 
 add_ideas = {
 	TRI_Founder_IT
-	#standard#
-	ITA_declining_trade
-	ITA_fadingfascism
-	ITA_navy_strengthened
-	ITA_king_umberto
 }
 
 #intro tree completed focuses#

@@ -11,13 +11,6 @@ add_ideas = {
 	the_two_principles
 	endsieg
 	gone_over
-
-	## Ministers
-	GER_Martin_Bormann_hog
-	GER_Hermann_Goring_sec
-	GER_Walther_Hewel_for
-	GER_Albert_Speer_eco
-		
 }
 
 if = {

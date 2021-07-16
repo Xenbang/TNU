@@ -37,14 +37,6 @@ create_country_leader = {
 add_ideas = {
 	#Country#
 	Sphere_Imp_Protectorate
-	PHI_democracy
-	PHI_dictatorship
-	PHI_Banditry
-	#Ministers
-	PHI_Camilo_Osias_hog
-	PHI_Jose_Laurel_eco
-	PHI_Emanuel_Pelaez_for
-	PHI_Jose_Zulueta_sec
 }
 
 set_country_flag = PHI_Aquino_1

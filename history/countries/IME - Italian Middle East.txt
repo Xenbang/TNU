@@ -130,13 +130,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	#standard#
-	TRI_Member_Client
-	IME_italys_finest
-	IME_haganah_fatah_negotiations
-	IME_terrorism
-	IME_emirate_of_transjordan
-	IEA_idea_colonial_government
 }
 
 create_country_leader = {

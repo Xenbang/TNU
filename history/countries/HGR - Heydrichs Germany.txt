@@ -11,6 +11,20 @@ add_ideas = {
 	GER_hitlers_chosen_successor
 }
 
+declare_war_on = {
+	target = SGR
+	type = annex_everything
+}
+declare_war_on = {
+	target = GGR
+	type = annex_everything
+}
+declare_war_on = {
+	target = BGR
+	type = annex_everything
+}
+
+
 set_technology = {
 	##INFANTRY##
 	# infantry_equipment_0 = 1

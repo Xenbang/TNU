@@ -1,8 +1,5 @@
 ﻿capital = 275
 
-add_ideas = {
-    BOR_Fight_Home
-}
 
 set_research_slots = 3
 

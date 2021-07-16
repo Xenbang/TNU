@@ -7,6 +7,19 @@ add_ideas = {
 	closed_economy 
 }
 
+declare_war_on = {
+	target = GGR
+	type = annex_everything
+}
+declare_war_on = {
+	target = HGR
+	type = annex_everything
+}
+declare_war_on = {
+	target = BGR
+	type = annex_everything
+}
+
 set_technology = {
 	##INFANTRY##
 	# infantry_equipment_0 = 1

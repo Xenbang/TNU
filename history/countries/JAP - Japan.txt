@@ -717,12 +717,6 @@ add_ideas = {
 
 	#Standard#
 	Sphere_Leader
-	JAP_showa_emperor
-	JAP_nihon_ascendant
-	JAP_nihon_ascendant_peacetime #hidden
-	JAP_zaibatsu_question
-	JAP_legacy_guarded_pearl_exercises
-	JAP_korea_tunnel_construction
 }
 
 set_country_flag = JAP_starting_economy_tree

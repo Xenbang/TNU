@@ -5,14 +5,6 @@ add_manpower = 25000
 
 add_ideas = {
 	Pakt_Autonomous_Reichskommissariat
-	MAD_idea_us_blockade
-	MAD_idea_increased_rebel_activity
-	MAD_idea_presence_of_the_garrison
-
-	MAD_Hans_Joachim_Schoeps_hog
- 	MAD_Albrecht_Haushofer_for
- 	MAD_Hermann_Henselmann_eco
- 	MAD_Erhard_Milch_sec
 }
 
 set_research_slots = 3

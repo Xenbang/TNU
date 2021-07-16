@@ -11,11 +11,6 @@ set_variable = {
 
 add_ideas = {
 	TRI_Member
-	CRO_the_partisan_problem
-	CRO_bosnian_autonomy
-	CRO_the_sham_kingdom
-	CRO_legacy_of_the_ustase
-
 }
 
 set_technology = {

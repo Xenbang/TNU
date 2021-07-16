@@ -57,9 +57,6 @@ set_popularities = {
 
 add_ideas = {
 	### <STARTING IDEAS> ###
-	HUN_az_kormanypart
-	HUN_suffocated_economy
-	HUN_der_volksbund
 }
 
 ### POLITICAL LEADERS ###

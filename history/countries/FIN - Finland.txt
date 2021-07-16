@@ -7,10 +7,6 @@ add_manpower = 100000
 add_ideas = {
 	#Faction Status
 	Pakt_Observer
-
-	### Ideas ###
-	FIN_Nation_of_Strength
-	FIN_Uncertain_Future
 }
 
 set_politics = {	

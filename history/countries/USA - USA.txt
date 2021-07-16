@@ -373,11 +373,6 @@ set_popularities = {
 add_ideas = {
 	#Faction Status
 	OFN_Leader_of_The_Free_World
-	#Spirits
-	USA_last_bastion_of_liberty
-	USA_the_american_depression_4
-	USA_jim_crow
-	USA_OFN_Buffs_4
 }
 
 create_country_leader = {

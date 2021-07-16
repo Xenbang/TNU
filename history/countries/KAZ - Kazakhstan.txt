@@ -4,10 +4,6 @@ oob = "KAZ_1962"
 
 add_ideas = {
 	##STANDARD##
-	KAZ_kaz_red_army
-	KAZ_base_idea
-	KAZ_bandit_plague
-	RUS_warlord_manpower
 }
 
 set_technology = {

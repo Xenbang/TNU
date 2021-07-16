@@ -3,10 +3,6 @@
 oob = "SCO_1962"
 
 diplomatic_relation = {
-	country = ULS
-	relation = docking_rights
-	active = yes
-
 }
 
 
@@ -90,11 +86,6 @@ set_convoys = 100
 set_stability = 0.60
 
 add_ideas = {
-	#Starting#
-	#SCO_English_Refugees
-	SCO_The_lonely_Ilse
-	SCO_Itchy_Trigger
-	SCO_Derry_Scapa_deal
 }
 
 set_politics = {	

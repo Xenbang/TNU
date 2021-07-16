@@ -5,9 +5,6 @@ capital = 3
 oob = "SWI_1962"
 
 add_ideas = {
-	## Spirts
-	SWI_the_cash_must_flow
-	SWI_fortress_switzerland
 }
 
 set_politics = {	

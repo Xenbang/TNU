@@ -31,11 +31,6 @@ set_popularities = {
 add_ideas = {
 	#Ideas
 	Sphere_Fully_Dependent
-	VIN_vietcong_idea
-	VIN_Crippling_Illiteracy
-	VIN_agrarian_society
-	VIN_japanese_rubber_exports
-	VIN_japanese_army
 }
 
 create_country_leader = {
