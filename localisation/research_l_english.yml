@@ -243,7 +243,7 @@
  dd_tech:0 "Destroyer models"
  cl_tech:0 "Cruiser models"
  cv_tech:0 "Carrier models"
- bb_tech:0 "Battleship models"
+ bb_tech:0 "Large Cruiser models"
  ss_tech:0 "Submarine models"
  tp_tech:0 "Transport models"
  naval_mines:0 "Mine Warfare Technologies"
@@ -1641,7 +1641,7 @@
   NAVAL_TITLE_DESTROYERS:0 "DESTROYERS"
   NAVAL_TITLE_CRUISERS:0 "CRUISERS"
   NAVAL_TITLE_BATTLECRUISERS:0 "BATTLECRUISERS"
-  NAVAL_TITLE_BATTLESHIPS:0 "BATTLESHIPS"
+  NAVAL_TITLE_BATTLESHIPS:0 "LARGE CRUISERS"
   NAVAL_TITLE_CARRIERS:0 "CARRIERS"
   NAVAL_TITLE_HELICARRIERS:0 "HELICOPTER CARRIERS"
   NAVAL_TITLE_SUBMARINES:0 "SUBMARINES"
@@ -1761,26 +1761,26 @@
    # Main Line (Equipment, Module)
    # - See 'equip_naval_l_english.yml' for equipment loc
    # - And 'ship_modules_l_english.yml' for module loc
-   #> early_ship_hull_battleship:0 "WW2 Battleship Hull"
-   #> basic_ship_hull_battleship:0 "1950 Battleship Hull"
-   #> improved_ship_hull_battleship:0 "1960 Battleship Hull"
-   #> advanced_ship_hull_battleship:0 "1970 Battleship Hull"
-   #> semi_modern_ship_hull_battleship:0 "1980 Battleship Hull"
-   #> modern_ship_hull_battleship:0 "1990 Battleship Hull"
+   #> early_ship_hull_battleship:0 "WW2 Large Cruiser Hull"
+   #> basic_ship_hull_battleship:0 "1950 Large Cruiser Hull"
+   #> improved_ship_hull_battleship:0 "1960 Large Cruiser Hull"
+   #> advanced_ship_hull_battleship:0 "1970 Large Cruiser Hull"
+   #> semi_modern_ship_hull_battleship:0 "1980 Large Cruiser Hull"
+   #> modern_ship_hull_battleship:0 "1990 Large Cruiser Hull"
 
    # Continue Development ()
-   continue_battleship_development:0 "Resume Battleship Development"
+   continue_battleship_development:0 "Resume Large Cruiser Development"
    continue_battleship_development_desc:0 "The battleship is the king of the sea. Carriers are useful, but nothing compares to the raw power of a battleship's broadside. Instead of throwing the prides of our fleet out, we shall retrofit and modernize them into true kings of the ocean."
    continue_battleship_development_tooltip:0 "§YCompleting this technology will allow us to defy the global trend of an air-power centered naval doctrine and continue with the development of battleships.§!"
   
    # Nuclear Reactor (Module)
-   nuclear_battleship_1960:0 "1960 Nuclear Battleship Reactor"
+   nuclear_battleship_1960:0 "1960 Nuclear Large Cruiser Reactor"
    nuclear_battleship_1960_desc:0 "One of the quickest ways to modernize our battleships is to move them to nuclear power. With nuclear power pushing our dreadnoughts forward, we shall gain speed, power, and efficiency, as well as reducing our need for fuel."
-   nuclear_battleship_1970:0 "1970 Nuclear Battleship Reactor"
+   nuclear_battleship_1970:0 "1970 Nuclear Large Cruiser Reactor"
    nuclear_battleship_1970_desc:0 "By upgrading our reactors to the next generation, we shall gain even more power and speed. Our battleships will also have their trips back to base drop sharply - fuel is no longer necessary for our kings of the sea to operate."
-   nuclear_battleship_1980:0 "1980 Nuclear Battleship Reactor"
+   nuclear_battleship_1980:0 "1980 Nuclear Large Cruiser Reactor"
    nuclear_battleship_1980_desc:0 "By upgrading to the next generation of reactor cores, efficiency and power will increase once more. Our battleships now slice through the waves as quickly as a conventional cruiser once did. Increased safety mechanisms also reduce the chance of catastrophic failure greatly."
-   nuclear_battleship_1990:0 "1990 Nuclear Battleship Reactor"
+   nuclear_battleship_1990:0 "1990 Nuclear Large Cruiser Reactor"
    nuclear_battleship_1990_desc:0 "Our next upgrade to our reactors promises a massive increase in speed, power, and efficiency. With our new cores, our battleships could theoretically patrol for decades without needing to refuel. The reactors are also simpler, smaller, and safer, making our battleships as safe as they are strong."
   ## Battleship ##
  
@@ -1984,13 +1984,13 @@
 
   ## Battleships ##
    # Nuclear Reactor (Modifier)
-   improved_battleship_nuclear_engine:0 "Battleship Nuclear Reactor I"
+   improved_battleship_nuclear_engine:0 "Large Cruiser Nuclear Reactor I"
    improved_battleship_nuclear_engine_desc:0 "When the philosophers asked how to get more speed and power out of a massive floating hunk of steel and explosives that is the modern battleship, the engineers answered that they could make it nuclear powered."
-   advanced_battleship_nuclear_engine:0 "Battleship Nuclear Reactor II"
+   advanced_battleship_nuclear_engine:0 "Large Cruiser Nuclear Reactor II"
    advanced_battleship_nuclear_engine_desc:0 "The second generation of nuclear powered reactors for battleships are for more fuel efficient and less prone to sudden explosions than their ancestors. Yet they still in some ways feel like the prototypes of greater things."
-   early_modern_battleship_nuclear_engine:0 "Battleship Nuclear Reactor III"
+   early_modern_battleship_nuclear_engine:0 "Large Cruiser Nuclear Reactor III"
    early_modern_battleship_nuclear_engine_desc:0 "Third generation nuclear reactors for battleships are some of the most advanced of their kind in any ship on earth, fueling a several thousand tonne hunk of metal is no easy feat after all. They manage it still."
-   modern_battleship_nuclear_engine:0 "Battleship Nuclear Reactor IV"
+   modern_battleship_nuclear_engine:0 "Large Cruiser Nuclear Reactor IV"
    modern_battleship_nuclear_engine_desc:0 "The modern nuclear reactor of a battleship is a work of art in many ways, eking every scrap of energy out of the nuclear reactions going on within its heart. The battleships of the modern era might not be the most tactically viable, but they are certainly fearsome."
   ## Battleships ##
 

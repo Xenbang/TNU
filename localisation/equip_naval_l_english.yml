@@ -30,7 +30,7 @@ l_english:
  battle_cruiser:0 "Battlecruiser"
  battle_cruiser_desc:0 "A large capital ship often with offensive abilities close to those of a battleship, but with weaker armor traded for a faster speed."
 
- battleship:0 "Battleship"
+ battleship:0 "Large Cruiser"
  battleship_desc:0 "The largest capital ship with the biggest guns and strongest armor that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
 
  sh_battleship:0 "Superheavy Battleship"
@@ -126,17 +126,17 @@ l_english:
   ship_hull_heavy:0 "Heavy Ship"
   ship_hull_heavy_desc:0 "Battleships are built for sheer firepower and toughness, intended to fight and win large-scale fleet battles. Though their role in the modern navy has largely been overtaken by carriers, they are still a formidable foe on the high seas, especially when upgraded and modernized."
  
-  ship_hull_heavy_1:1 "Early Battleship Hull"
+  ship_hull_heavy_1:1 "Early Large Cruiser Hull"
   ship_hull_heavy_1_desc:0 "Battleship hulls built during the war were astoundingly diverse, mounting all manner of fearsome weaponry and serving as the lions of their era, unchallenged in their dominion of the seas. Those still around in the present day are the most fearsome of their kind."
-  ship_hull_heavy_2:1 "Basic Battleship Hull"
+  ship_hull_heavy_2:1 "Basic Large Cruiser Hull"
   ship_hull_heavy_2_desc:0 "The 50's represented something of a nadir for battleships as the great nations of the world turned to carrier based warfare. Yet still those constructed in this era are formidable foes to any foolish enough to cross their path."
-  ship_hull_heavy_3:1 "Improved Battleship Hull"
+  ship_hull_heavy_3:1 "Improved Large Cruiser Hull"
   ship_hull_heavy_3_desc:0 "The battleship of the 60's is an interesting beast, incorporating modern technology into a style of warfare left behind in the dust. Perhaps they shall exceed the expectations of their foes."
-  ship_hull_heavy_4:1 "Advanced Battleship Hull"
+  ship_hull_heavy_4:1 "Advanced Large Cruiser Hull"
   ship_hull_heavy_4_desc:0 "A battleship built in the 70's is a sight to behold indeed, something capable of ripping any armada without air support to shreds and yet also strangely unprotected from the many dangers the ships of this era face."
-  ship_hull_heavy_5:1 "Semi-Modern Battleship Hull"
+  ship_hull_heavy_5:1 "Semi-Modern Large Cruiser Hull"
   ship_hull_heavy_5_desc:0 "The addition of new technology to an old framework is something that few consider a truly worthwhile task. Perhaps then someone should inform those that built the battleships of the 80's."
-  ship_hull_heavy_6:1 "Modern Battleship Hull"
+  ship_hull_heavy_6:1 "Modern Large Cruiser Hull"
   ship_hull_heavy_6_desc:0 "A symbol of wealth and of stubbornness, the battleship of the 90's is a terror at sea like none other, incorporating such a range of technology as to be nigh invincible from conventional attacks. Perhaps it is for the best that it is not seriously expected to fight in a war."
  ### Battleship ###
 
@@ -247,17 +247,17 @@ l_english:
  ## Cruisers ##
 
  ## Battleships ##
-  battleship_1:0 "Early Battleship"
+  battleship_1:0 "Early Large Cruiser"
   battleship_1_desc:0 "The interwar period was dominated by the battleship, as each major power rushed to build them. However, World War II and the rise of the carrier ended up relegating the battleship to mostly supporting duty. Battleships can still be used in any navy that has them, but their effectiveness in modern combat has been questioned."
-  battleship_2:0 "Basic Battleship"
+  battleship_2:0 "Basic Large Cruiser"
   battleship_2_desc:0 "By modernizing our battleships, we shall bring them into the modern day. Increasing the size of our guns shall allow us to strike from kilometers away. By improving the size of our engines, we can move faster than any battleship has before. Finally, we shall improve our armor to defend from bombs, torpedoes, and anything else that threatens us."
-  battleship_3:0 "Improved Battleship"
+  battleship_3:0 "Improved Large Cruiser"
   battleship_3_desc:0 "Our guns are large, but at range they are pitifully inaccurate. We can change this by adding aerial capabilities- a spotting craft high in the sky will certainly help our shooting. In addition, larger guns and even larger engines will continue to improve our speed and strength."
-  battleship_4:0 "Advanced Battleship"
+  battleship_4:0 "Advanced Large Cruiser"
   battleship_4_desc:0 "Our guns are unbelievably powerful, but their accuracy leaves something to be desired. By adding a modern computer to calculate our shots for us, our accuracy will markedly improve. In addition, upgraded anti-missile and anti-air will protect us from any battleship's greatest threat."
-  battleship_5:0 "Semi-Modern Battleship"
+  battleship_5:0 "Semi-Modern Large Cruiser"
   battleship_5_desc:0 "Bigger is better, as they say, and our battleships are only getting bigger. An increased engine, even larger weaponry, and improved armor will turn our capital ships into unsinkable fortresses, able to shred any poor fool who tried to stop it."
-  battleship_6:0 "Modern Battleship"
+  battleship_6:0 "Modern Large Cruiser"
   battleship_6_desc:0 "By adding a modern radar system to our fleet, we shall greatly improve our ability to detect and fight enemies. An improved computer will similarly aid both our main batteries and our secondary weapons. Finally, increased anti-missile defense will make our battleships almost untouchable."
   
   # Super Heavy Battleship (Deprecated)
