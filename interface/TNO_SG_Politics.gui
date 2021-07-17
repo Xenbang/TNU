@@ -18,7 +18,7 @@ guiTypes = {
 		iconType = {
 			name = "current_faction_status"
 			spriteType = "GFX_idea_unknown"
-			position = { x = 30 y = 95 }
+			position = { x = 28 y = 92 }
 			scale = 1
 			alwaystransparent = no
 			pdx_tooltip = "CURRENT_FACTION_STATUS_SHORT_TT"
@@ -27,71 +27,71 @@ guiTypes = {
 
 		iconType = {
 			name = "faction_icon_unity_pakt"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_unity_pakt"
 			scale = 0.75
 			pdx_tooltip = Unity_Pakt
 		}
 		iconType = {
 			name = "faction_icon_as"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_afrika_schild"
 			scale = 0.75
 			pdx_tooltip = afrika_schild
 		}
 		iconType = {
 			name = "faction_icon_coprosperity"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_coprosperity"
-			scale = 0.9
+			scale = 0.65
 			pdx_tooltip = Japanese_Co_Prosperity_Sphere
 		}
 		iconType = {
 			name = "faction_icon_generic"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_generic_faction"
-			scale = 0.9
+			scale = 0.65
 		}
 		iconType = {
 			name = "faction_icon_OFN"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_OFN"
-			scale = 0.75
+			scale = 0.65
 			pdx_tooltip = Organization_of_Free_Nations
 		}
 		iconType = {
 			name = "faction_icon_triumvirate"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_triumvirate"
-			scale = 0.9
+			scale = 0.65
 			pdx_tooltip = Triumvirate
 		}
 		iconType = {
 			name = "faction_icon_NLF"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_NLF"
-			scale = 0.9
+			scale = 0.65
 			pdx_tooltip = CHI_THE_NATIONAL_LIBERATION_FRONT
 		}
 		iconType = {
 			name = "faction_icon_ARC"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_ARC"
-			scale = 0.9
+			scale = 0.65
 			pdx_tooltip = all_russian_congress
 		}
 		iconType = {
 			name = "faction_icon_FI"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_FI"
-			scale = 0.9
+			scale = 0.65
 			pdx_tooltip = Fourth_International
 		}
 		iconType = {
 			name = "faction_icon_UA"
-			position = {x = 30 y = 30 }
+			position = {x = 33 y = 33 }
 			quadTextureSprite = "GFX_UA"
-			scale = 0.9
+			scale = 0.65
 			pdx_tooltip = ural_alliance
 		}
 	}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_GGR_friends_in_saudi_arabia"
+		texturefile = "gfx/interface/goals/new/GGR_deal_with_the_saudis.dds"
+	}
+	SpriteType = {
+		name = "GFX_GGR_german_soldiers1"
+		texturefile = "gfx/interface/goals/GRE_Let_the_Aryan_Verbands_Run_Wild.dds"
+	}
+}

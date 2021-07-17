@@ -12,13 +12,80 @@ shared_focus = {
 			}
 		}
 	}
-	x = 8
+	x = 6
 	y = 0
 }
 
+
+shared_focus = {
+	id = GGR_deal_with_the_saudis 
+	icon = GFX_GGR_friends_in_saudi_arabia
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_burgerkreig
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_declare_germany_my_fly_zone"
+		add_stability = 0.05
+	}
+	x = 0
+	y = 1
+}
+
+shared_focus = {
+	id = GGR_breton_arms_purchases 
+	icon = GFX_BRT_Breton_Supplies
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_deal_with_the_saudis
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_declare_germany_my_fly_zone"
+		add_stability = 0.05
+	}
+	x = -1
+	y = 2
+}
+
+shared_focus = {
+	id = GGR_drain_the_rks
+	icon = GFX_GER_and_we_follow_the_fuhrer
+	cost = 5.00
+	prerequisite = {
+		focus = GGR_deal_with_the_saudis
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_declare_germany_my_fly_zone"
+		add_stability = 0.05
+	}
+	x = 1
+	y = 2
+}
+
+shared_focus = {
+	id = GGR_any_aryan_will_do
+	icon = GFX_GGR_german_soldiers1
+	cost = 5.00
+
+	prerequisite = {
+		focus = GGR_drain_the_rks
+	}
+	prerequisite = {
+		focus = GGR_breton_arms_purchases
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GGR_declare_germany_my_fly_zone"
+		add_stability = 0.05
+	}
+	x = 0
+	y = 3
+}
+
+
 shared_focus = {
 	id = GGR_declare_germany_my_fly_zone
-	icon = GFX_workers_fist
+	icon = GFX_ANG_control_the_sky
 	cost = 5.00
 	prerequisite = {
 		focus = GGR_burgerkreig
@@ -33,7 +100,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GGR_luftwaffe_grenadiers
-	icon = GFX_workers_fist
+	icon = GFX_ANG_air_attack_fleet
 	cost = 5.00
 	prerequisite = {
 		focus = GGR_declare_germany_my_fly_zone
@@ -48,7 +115,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GGR_sound_the_gjallarhon
-	icon = GFX_workers_fist
+	icon = GFX_ANG_air_traffic_reduction
 	cost = 5.00
 	prerequisite = {
 		focus = GGR_declare_germany_my_fly_zone
@@ -63,7 +130,7 @@ shared_focus = {
 
 shared_focus = {
 	id = GGR_unleash_our_valkyries
-	icon = GFX_workers_fist
+	icon = GFX_ANG_a_new_transport_fleet
 	cost = 5.00
 	prerequisite = {
 		focus = GGR_sound_the_gjallarhon
@@ -79,7 +146,6 @@ shared_focus = {
 	x = 12
 	y = 3
 }
-
  
 shared_focus = {
 	id = GGR_rally_the_workers
@@ -244,7 +310,7 @@ shared_focus = {
 		add_manpower = 7500
 		add_stability = 0.05
 	}
-	x = 0
+	x = 2
 	y = 1
 }
 

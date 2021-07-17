@@ -14,7 +14,6 @@ guiTypes = {
 		
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 
 		iconType ={
@@ -46,7 +45,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 350 y = 360 }
+			position = { x= 350 y = 350 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			scale = 1
@@ -72,7 +71,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 425 y = 315 }
+			position = { x= 425 y = 305 }
 			size = { width=400 height=400 }
 			clipping = no
 			scale = 0.70
@@ -266,7 +265,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 179 y = 48 }
+			position = { x = 179 y = 55 }
 			size = { width = 330 height = 50 }
 			clipping = no
 						
@@ -377,7 +376,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = -2 }
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20
@@ -416,21 +415,21 @@ guiTypes = {
 		}
 		iconType = {
 			name = "leader"
-			position = { x = 18 y = 58 }
+			position = { x = 13 y = 54 }
 			spriteType = "GFX_leader_unknown"
 		}
 		
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 10 y = 44 }		
+			position = { x = 2 y = 44 }		
 			alwaystransparent = yes
 		}
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 271 }
-			font = "hoi_18mbs"
+			position = { x = 12 y = 271 }
+			font = "hoi_16mbs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -440,15 +439,13 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 425 }
+			position = { x = 0 y = 422 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 14 bottom = 13}
 		
 			background = {
 				name = "Background"
-				#quadTextureSprite ="GFX_tiled_window_2b_border"
-				#quadTextureSprite ="GFX_tiled_window_1b_border"
 				quadTextureSprite ="GFX_tiled_window_1b_border"
 			}
 			
@@ -497,7 +494,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 84 y = 315 }
+			position = { x = 83 y = 315 }
 			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -532,6 +529,7 @@ guiTypes = {
 				spriteType = "GFX_icon_manage_subjects"
 				position = { x = 2 y = 1 }
 				alwaystransparent = yes
+				scale = 0
 			}
 		}
 		
@@ -546,7 +544,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = 75 y = 390 }
+			position = { x = 70 y = 390 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -560,12 +558,14 @@ guiTypes = {
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
 			position = { x = 48 y = 380 }
+			scale = 0 
 		}
 
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
 			position = { x = 46 y = 305 }
+			scale = 0
 		}
 	}
 	
@@ -578,13 +578,13 @@ guiTypes = {
 		iconType ={
 			name ="category_header"
 			spriteType = "GFX_category_header"
-			position = { x=-5 y=2 }
+			position = { x=-3 y=2 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType ={
 			name ="category_icon"
 			spriteType = "GFX_idea_categories"
-			position = { x=4 y=8 }
+			position = { x=15 y=7 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -592,7 +592,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 70 y = 14 }
-			font = "hoi_20b"
+			font = "hoi_18mbs"
 			text = "Government"
 			maxWidth = 300
 			maxHeight = 20
@@ -600,7 +600,7 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "ideas_grid"
-			position = { x = 17 y = 46 }
+			position = { x = 17 y = 45 }
 			size = { width = 100%% height = 100%% }
 			slotsize = { width = 80 height = 64 }
 			max_slots = { x = 7 y = 1 }
