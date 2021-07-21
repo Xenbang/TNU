@@ -41,7 +41,6 @@ technologies = {
 		}
 	}
 
-
 	APC_1950 = { #Panzer I
 
 		enable_equipments = {
@@ -53,6 +52,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = APC_1950_basic_armor
+			research_cost_coeff = 1
+		}
+
+
 		research_cost = 2
 		start_year = 1950
 		
@@ -87,7 +92,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 1 y = 7 }
+			position = { x = 1 y = 9 }
 		}
 
 		
@@ -117,7 +122,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 1 y = 9 }
+			position = { x = 1 y = 13 }
 		}
 
 		
@@ -147,7 +152,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 1 y = 11 }
+			position = { x = 1 y = 17 }
 		}
 
 		
@@ -173,7 +178,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 1 y = 13 }
+			position = { x = 1 y = 21 }
 		}
 
 		
@@ -203,7 +208,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 1 y = 2 }
+			position = { x = 1 y = 1 }
 		}
 
 		
@@ -233,7 +238,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 2 }
+			position = { x = 1 y = 5 }
 		}
 
 		
@@ -258,22 +263,13 @@ technologies = {
 			leads_to_tech = IFV_1970 
 			research_cost_coeff = 1
 		}
-		path = { #1960 armor
-			leads_to_tech = IFV_1960_basic_armor
-			research_cost_coeff = 1
-		}
-		
-		path = { #1960 turret
-			leads_to_tech = IFV_1960_basic_turret
-			research_cost_coeff = 1
-		}
 		
 		research_cost = 2
 		start_year = 1960
 		
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 2 }
+			position = { x = 1 y = 9 }
 		}
 		
 
@@ -304,7 +300,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 7 y = 2 }
+			position = { x = 1 y = 13 }
 		}
 		
 
@@ -334,7 +330,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 9 y = 2 }
+			position = { x = 1 y = 17 }
 		}
 	
 		
@@ -359,10 +355,8 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 11 y = 2 }
+			position = { x = 1 y = 21 }
 		}
-		
-
 		
 		ai_will_do = {
 			factor = 60
@@ -391,7 +385,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 13 y = 2 }
+			position = { x = 5 y = 1 }
 		}
 		
 		
@@ -404,7 +398,6 @@ technologies = {
 			MBT
 		}
 	}
-
 
 	MBT_1950 = { # T-55
 
@@ -417,12 +410,33 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = MBT_1960_composite_armour
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1960_stabilization
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1960_turbine_engine
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1960_bigger_gun
+			research_cost_coeff = 1 
+		}
+
+
 		research_cost = 2
 		start_year = 1950
 		
 		folder = {
 			name = armour_folder
-			position = { x = 1 y = 4 }
+			position = { x = 5 y = 5 }
 		}
 		
 		ai_will_do = {
@@ -435,30 +449,188 @@ technologies = {
 			MBT
 		}
 	}
+
 	
-	MBT_1960 = { # T-64
+	MBT_1960_composite_armour = {
+		
+		path = {
+		}
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1960_composite_armour_tech_idea }
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+	}
+	
+	MBT_1960_stabilization = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1960_stabilization_tech_idea }
+		}
+
+		start_year = 1956
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 7 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1960_turbine_engine = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1960_turbine_engine_idea }
+		}
+
+		start_year = 1959
+		
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 7 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1960_bigger_gun = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1960_better_gun_idea }
+		}
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = 7 }
+		}
+		
+		categories = {
+			armor
+			APC
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MBT_1960 = { # T-55
 
 		enable_equipments = {
-			MBT_equipment_2
+			MBT_equipment_2 
+		}
+		
+		path = {
+			leads_to_tech = MBT_second_generation
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MBT_1970_composite_armour
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1970_stabilization
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1970_turbine_engine
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1970_bigger_gun
+			research_cost_coeff = 1 
+		}
+
+
+		research_cost = 2
+		start_year = 1950
+		
+		folder = {
+			name = armour_folder
+			position = { x = 5 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+			
+		}
+		
+		categories = {
+			armor
+			MBT
+		}
+	}
+
+
+	MBT_second_generation = { 
+
+		enable_equipments = {
 		}
 		
 		path = {
 			leads_to_tech = MBT_1970
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2.5
 		start_year = 1960
 		
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 4 }
+			position = { x = 5 y = 12 }
 		}
 		
 		
 		ai_will_do = {
 			factor = 50
-			
 		}
 		
 		categories = {
@@ -473,7 +645,29 @@ technologies = {
 			leads_to_tech = MBT_1980
 			research_cost_coeff = 1
 		}
-		
+
+		path = {
+			leads_to_tech = MBT_1980_composite_armour
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1980_stabilization
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1980_turbine_engine
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1980_bigger_gun
+			research_cost_coeff = 1 
+		}
+
+
+
 		enable_equipments = {
 			MBT_equipment_3 
 		}
@@ -483,7 +677,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 7 y = 4 }
+			position = { x = 5 y = 15 }
 		}
 
 		
@@ -497,7 +691,222 @@ technologies = {
 			MBT
 		}
 	}
+
+	MBT_1970_composite_armour = {
+		
+		path = {
+		}
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1970_composite_armour_tech_idea }
+		}
+		
+		research_cost = 1
+
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+	}
 	
+	MBT_1970_stabilization = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1970_stabilization_tech_idea }
+		}
+
+		start_year = 1962
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 11 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1970_turbine_engine = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1970_turbine_engine_idea }
+		}
+
+		start_year = 1959
+		
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 11 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1970_bigger_gun = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1970_better_gun_idea }
+		}
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = 11 }
+		}
+		
+		categories = {
+			armor
+			APC
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	MBT_1980_composite_armour = {
+		
+		path = {
+		}
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1980_composite_armour_tech_idea }
+		}
+		
+		research_cost = 1
+
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 17 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+	}
+	
+	MBT_1980_stabilization = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1980_stabilization_tech_idea }
+		}
+
+		start_year = 1962
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 17 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1980_turbine_engine = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1980_turbine_engine_idea }
+		}
+
+		start_year = 1959
+		
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 17 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1980_bigger_gun = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1980_better_gun_idea }
+		}
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = 17 }
+		}
+		
+		categories = {
+			armor
+			APC
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	MBT_1980 = { #Maus
 
 		path = {
@@ -505,9 +914,24 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = { #MBT turret
-			leads_to_tech = MBT_1980_basic_turret
-			research_cost_coeff = 1
+		path = {
+			leads_to_tech = MBT_1990_composite_armour
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1990_stabilization
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1990_turbine_engine
+			research_cost_coeff = 1 
+		}
+
+		path = {
+			leads_to_tech = MBT_1990_bigger_gun
+			research_cost_coeff = 1 
 		}
 		
 		enable_equipments = {
@@ -518,7 +942,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 9 y = 4 }
+			position = { x = 5 y = 19 }
 		}
 
 		
@@ -531,7 +955,114 @@ technologies = {
 			MBT
 		}
 	}
+
+	MBT_1990_composite_armour = {
+		
+		path = {
+		}
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1990_composite_armour_tech_idea }
+		}
+		
+		research_cost = 1
+
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 21 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+	}
 	
+	MBT_1990_stabilization = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1990_stabilization_tech_idea }
+		}
+
+		start_year = 1962
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 21 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1990_turbine_engine = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1990_turbine_engine_idea }
+		}
+
+		start_year = 1959
+		
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 21 }
+		}
+		
+		categories = {
+			armor
+			APC
+			armor_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT_1990_bigger_gun = {
+		
+		research_cost = 1
+
+	    on_research_complete = {
+			hidden_effect = { add_ideas = MBT_1990_better_gun_idea }
+		}
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 8 y = 21 }
+		}
+		
+		categories = {
+			armor
+			APC
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	MBT_1990 = { #T-90
 		
 		enable_equipments = {
@@ -542,7 +1073,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = armour_folder
-			position = { x = 11 y = 4 }
+			position = { x = 5 y = 23 }
 		}
 
 		

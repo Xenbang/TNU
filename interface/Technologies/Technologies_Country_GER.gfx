@@ -1,4 +1,74 @@
 spriteTypes = {
+
+	## Generic ###
+
+	SpriteType = {
+		name = "GFX_MBT_1960_composite_armour_medium"
+		texturefile = "gfx/interface/technologies/armor/APShell3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1960_bigger_gun_medium"
+		texturefile = "gfx/interface/technologies/armor/Armor7.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1960_turbine_engine_medium"
+		texturefile = "gfx/interface/technologies/armor/EngineIcon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1960_stabilization_medium"
+		texturefile = "gfx/interface/technologies/armor/Hull3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MBT_1970_composite_armour_medium"
+		texturefile = "gfx/interface/technologies/armor/APShell3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1970_bigger_gun_medium"
+		texturefile = "gfx/interface/technologies/armor/Armor7.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1970_turbine_engine_medium"
+		texturefile = "gfx/interface/technologies/armor/EngineIcon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1970_stabilization_medium"
+		texturefile = "gfx/interface/technologies/armor/Hull3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MBT_1980_composite_armour_medium"
+		texturefile = "gfx/interface/technologies/armor/APShell3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1980_bigger_gun_medium"
+		texturefile = "gfx/interface/technologies/armor/Armor7.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1980_turbine_engine_medium"
+		texturefile = "gfx/interface/technologies/armor/EngineIcon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1980_stabilization_medium"
+		texturefile = "gfx/interface/technologies/armor/Hull3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MBT_1990_composite_armour_medium"
+		texturefile = "gfx/interface/technologies/armor/APShell3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1990_bigger_gun_medium"
+		texturefile = "gfx/interface/technologies/armor/Armor7.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1990_turbine_engine_medium"
+		texturefile = "gfx/interface/technologies/armor/EngineIcon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MBT_1990_stabilization_medium"
+		texturefile = "gfx/interface/technologies/armor/Hull3.dds"
+	}
 	
 	## GER INFANTRY ##
 

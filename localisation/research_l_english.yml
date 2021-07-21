@@ -766,6 +766,7 @@
  ARMOUR_TITLE_IFV:0 "Infantry Fighting Vehicle"
  ARMOUR_TITLE_APC:0 "Armored Personnel Carrier"
  ARMOUR_TITLE_MBT:0 "Main Battle Tank"
+ ARMOUR_TITLE_MBT_2:0 "Second Generation Tanks"
 
  ### APC ###
   # See 'equipment_l_english.yml' for equipment loc

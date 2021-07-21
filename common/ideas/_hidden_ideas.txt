@@ -1,0 +1,363 @@
+
+ideas = {
+	###############
+	# Country ideas
+	###############
+	hidden_ideas = {
+		MBT_1960_composite_armour_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_2 = {
+                    armor = 0.1 
+					breakthrough = 0.05
+					defense = 0.05                    
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1960_stabilization_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_2 = {
+                    soft_attack = 0.1
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1960_better_gun_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_2 = {
+					hard_attack = 0.1 
+                    soft_attack = 0.05
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1960_turbine_engine_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_2 = {
+					maximum_speed = 0.2 
+                    reliability = -0.1 
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1970_composite_armour_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_3 = {
+                    armor = 0.1 
+					breakthrough = 0.05
+					defense = 0.05                    
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1970_stabilization_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_3 = {
+                    soft_attack = 0.1
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1970_better_gun_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_3 = {
+					hard_attack = 0.1 
+                    soft_attack = 0.05
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1970_turbine_engine_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_3 = {
+					maximum_speed = 0.2 
+                    reliability = -0.1 
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1980_composite_armour_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_4 = {
+                    armor = 0.1 
+					breakthrough = 0.05
+					defense = 0.05                    
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1980_stabilization_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_4 = {
+                    soft_attack = 0.1
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1980_better_gun_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_4 = {
+					hard_attack = 0.1 
+                    soft_attack = 0.05
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1980_turbine_engine_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_4 = {
+					maximum_speed = 0.2 
+                    reliability = -0.1 
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1990_composite_armour_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_5 = {
+                    armor = 0.1 
+					breakthrough = 0.05
+					defense = 0.05                    
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+		MBT_1990_stabilization_tech_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_5 = {
+                    soft_attack = 0.1
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1990_better_gun_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_5 = {
+					hard_attack = 0.1 
+                    soft_attack = 0.05
+                    build_cost_ic = 0.05
+                }
+            }
+		}
+
+		MBT_1990_turbine_engine_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_warlord_manpower"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			cancel_if_invalid = yes
+			modifier = {
+			}
+            equipment_bonus = {
+                MBT_equipment_5 = {
+					maximum_speed = 0.2 
+                    reliability = -0.1 
+                    build_cost_ic = 0.05 
+                }
+            }
+		}
+
+
+    }
+}
+
+

@@ -229,8 +229,8 @@ ideas = {
 				ai_focus_aggressive_factor = 0.25
 				conscription_factor = 0.05
 				army_org_Factor = -0.1
-				supply_consumption_factor = -0.5 
-				surrender_limit = 0.1
+				supply_consumption_factor = -1
+				surrender_limit = 0.2
 			}
 		}
 		
