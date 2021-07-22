@@ -788,7 +788,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 3 }
+			position = { x = 4 y = 2 }
 		}
 		
 		categories = {
@@ -819,7 +819,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 3 y = 7 }
+			position = { x = 4 y = 6 }
 		}
 		
 		categories = {
@@ -850,7 +850,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = 11 }
+			position = { x = 4 y = 10 }
 		}
 		
 		categories = {
@@ -876,7 +876,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = 15 }
+			position = { x = 4 y = 14 }
 		}
 		
 		categories = {
@@ -906,60 +906,11 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = 10 y = 2 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 0.2
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {
@@ -994,41 +945,10 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = 10 y = 4 }
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 30
-						}
-					}
-				}
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1939.1.6"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
 		}
 		
 		categories = {
@@ -1043,15 +963,6 @@ technologies = {
 			anti_tank_equipment_2
 		}
 		
-		#anti_tank = {
-		#	hard_attack = 0.1
-		#	ap_attack = 0.05
-		#}
-		#anti_tank_brigade = {
-		#	hard_attack = 0.1
-		#	ap_attack = 0.05
-		#}
-		
 		path = {
 			leads_to_tech = antitank3
 			research_cost_coeff = 1
@@ -1063,50 +974,11 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = 10 y = 6 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.9"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1940.1.1"
-			}
-			modifier = {
-				tag = USA
-				has_War = no
-				factor = 0.5 #this tank nonsense will never catch on
-			}
-			modifier = {
-				factor = 5
-				date > "1940.1.6"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {
@@ -1141,46 +1013,11 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 8 }
+			position = { x = 10 y = 8 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.6"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1943.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 32
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {
@@ -1215,41 +1052,11 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 10 }
+			position = { x = 10 y = 10 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.6"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 5
-				date > "1943.1.1"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 35
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {
@@ -1270,46 +1077,11 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 12 }
+			position = { x = 10 y = 12 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.9"
-			}
-			modifier = {
-				tag = JAP
-				not = {
-					OR = {
-						has_War_with = SOV
-						has_war_with = USA
-					}
-				}
-				factor = 0.5
-			}
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1943.1.6"
-			}
-			modifier = {
-				factor = 10
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 35
-						}
-					}
-				}
-			}
 		}
 		
 		categories = {

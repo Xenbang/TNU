@@ -1,0 +1,19 @@
+
+GER_GCW_mechanic_category = {
+	icon = decision_category_military_operation
+	picture = GFX_decision_GER_decision_political_situation
+
+	allowed = {
+		OR = {
+			tag = BGR
+			tag = GGR
+			tag = SGR
+			tag = HGR
+		}
+	}
+
+	visible = {
+	}
+	visible_when_empty = yes
+}
+
