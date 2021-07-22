@@ -17,3 +17,9 @@ GER_GCW_mechanic_category = {
 	visible_when_empty = yes
 }
 
+GER_Bormann_CW_category = {
+	icon = generic_crisis
+	picture = GFX_decision_GER_decision_political_situation
+
+	allowed = { tag = BGR }
+}

@@ -184,8 +184,6 @@ guiTypes = {
 				format = center
 			}
 			
-
-			
 			#------------------------- TAB BUTTONS ----------------------------
 			iconType = {
 				name = "tabs_background"

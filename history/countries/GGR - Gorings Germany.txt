@@ -1,11 +1,10 @@
 ﻿capital = 66
 
-oob = "GGR_1962"
+oob = "GGR"
 
 add_ideas = {
 	#National Spirits#
 	GER_GGR_civil_war_offense
-
 }
 
 declare_war_on = {

@@ -1,0 +1,95 @@
+GER_Bormann_CW_category = {
+	bormann_rally_the_military_bureaucrats = {
+		icon = decision_generic_military_parade
+		cost = 25
+		days_re_enable = 25
+		available = { has_completed_focus = BOR_full_political_mobilization }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision bormann_rally_the_military_bureaucrats"
+			add_command_power = 50
+            army_experience = 50 
+		}
+		ai_will_do = { factor = 10 }
+    }
+	
+	bormann_rally_the_industry_managers = {
+		icon = generic_industry
+		cost = 100
+		days_re_enable = 120
+		available = { has_completed_focus = BOR_full_political_mobilization }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision bormann_rally_the_industry_managers"
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	bormann_rally_the_beamtentum = {
+		icon = generic_civil_support
+		cost = 50
+		days_re_enable = 25
+		available = { has_completed_focus = BOR_the_faith_of_the_people }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision bormann_rally_the_beamtentum"
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+		ai_will_do = { factor = 10 }
+    }
+	
+	bormann_rally_the_landvolk = {
+		icon = generic_prepare_civil_war
+		cost = 25
+		days_re_enable = 100
+		available = { has_completed_focus = BOR_the_faith_of_the_people }
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision bormann_rally_landvolk"
+			add_manpower = 12500
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	bormann_rally_the_old_guard = {
+		icon = ger_reichskommissariats
+		cost = 100
+		available = { has_completed_focus = BOR_the_faith_of_our_leaders }
+        fire_only_once = yes 
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision bormann_rally_the_old_guard"
+			every_army_leader = {
+				add_attack = 1
+			}
+
+		}
+		ai_will_do = { factor = 10 }
+	}
+	
+	bormann_rally_the_aristocrats = {
+		icon = generic_form_nation
+		cost = 25
+        days_active = 120
+		days_re_enable = 120
+		available = { has_completed_focus = BOR_the_faith_of_our_leaders }
+
+		modifier = {
+            industrial_capacity_factory = 0.1
+        }
+		ai_will_do = { factor = 10 }
+    }
+}

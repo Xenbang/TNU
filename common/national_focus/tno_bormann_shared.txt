@@ -6,49 +6,6 @@
 #╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝#
 #Shared Focuses
 
-#Index; Search for these names using ctrl+f and you'll find the section they entitle.
-#	DEMONSTRATION PURPOSES; If you're new to Bormann dev check the below tree(s)
-#	Bormann Example Tree(s)
-#
-#	CIVIL WAR
-#	Bormann Civil War Tree
-#	Bormann Anarchy Tree
-#
-#	PHASE 1
-#	Bormann Opening Tree
-#	Bormann Foreign Trees
-#		Bormann Ostland Tree(s)
-#		Bormann Ukraine Tree(s)
-#		Bormann Moskowien Tree(s)
-#		Bormann Kaukasien Tree(s)
-#		Bormann Afrika Tree(s)
-#			Bormann SAF War Tree(s)
-#
-#	PHASE 2
-#	Bormann Domestic Trees
-#		Bormann Post-Dismantlement Tree
-#		Bormann Econ I Tree
-#	Bormann Foreign Trees
-#		Bormann Norway Tree(s)
-#		Bormann US Tree(s)
-#		Bormann Japan/Sphere Tree(s)
-#		Bormann Italy Tree(s)
-#		Bormann Burgundy Tree(s)
-#
-#	PHASE 3
-#	Bormann Oil Crisis Tree
-#		Bormann Middle East Intervention Tree
-#		Bormann Econ II Tree
-#
-#	CLOSING
-#	Bormann Opulence Tree
-#
-#	OLDIES!
-#	Bormann Economic Tree			!OLD
-
-##########################
-# Bormann Civil War Tree #
-##########################
 
 shared_focus = {
 	id = BOR_der_burgerkrieg

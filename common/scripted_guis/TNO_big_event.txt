@@ -560,7 +560,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_unification_wrrf_tukha
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -587,7 +587,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_unification_wrrf_zhukov
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -614,7 +614,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_tno_se_strat_chita_russia_unification
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -719,7 +719,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_unification_chita_imperial
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -773,7 +773,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_unification_komi_taboritsky
-				#TNO_russia_ending_screen = yes Oh hoho, no. We ain't done yet. There's so much to be done.
+				# Oh hoho, no. We ain't done yet. There's so much to be done.
 			}
 		}
 	}
@@ -801,7 +801,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_vyatka_libdem
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -829,7 +829,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_vyatka_condem
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -857,7 +857,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_vyatka_authdem
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -885,7 +885,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_aryan_brotherhood_vagner
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -913,7 +913,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_aryan_brotherhood_hyperborea
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -968,7 +968,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_unification_samara_bunyachenko
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1022,7 +1022,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_father_men
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1050,7 +1050,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_buryatia_libsoc
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1078,7 +1078,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_buryatia_authsoc
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1106,7 +1106,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_irkutsk_party
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1133,7 +1133,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_irkutsk_state
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1187,7 +1187,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_RUSSIAN_UNIFICATION_TOMSK_HUMANIST
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1215,7 +1215,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_kemerovo_yuriy
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1243,7 +1243,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_kemerovo_lydia
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1324,7 +1324,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_tyumen_kaganovich
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1351,7 +1351,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_tyumen_khrushchev
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1404,7 +1404,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_stalina
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1431,7 +1431,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_bukharina
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1458,7 +1458,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_komi_gummilyov
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1485,7 +1485,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_komi_shafarevich
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1512,7 +1512,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_komi_serov
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1539,7 +1539,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_komi_suslov
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1566,7 +1566,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_komi_democratic
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1593,7 +1593,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_sverdlovsk_yeltsin
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1620,7 +1620,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_tomsk_bastillards
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1647,7 +1647,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_tomsk_modernists
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1674,7 +1674,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_tomsk_decembrists
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}
@@ -1701,7 +1701,7 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = big_event_russian_reunification_prc
-				TNO_russia_ending_screen = yes
+				
 			}
 		}
 	}

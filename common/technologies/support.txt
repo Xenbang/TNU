@@ -80,7 +80,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = support_folder
-			position = { x = 14 y = 12 }
+			position = { x = 14 y = 6 }
 		}
 		
 		categories = {
@@ -110,10 +110,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
-			position = { x = 14 y = 18 }
+			position = { x = 14 y = 12 }
 		}
 		
 		categories = {
@@ -141,7 +141,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = support_folder
-			position = { x = 14 y = 24 }
+			position = { x = 14 y = 18 }
 		}
 		
 		categories = {
@@ -165,7 +165,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = support_folder
-			position = { x = 14 y = 30 }
+			position = { x = 14 y = 24 }
 		}
 		
 		categories = {
@@ -196,7 +196,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = support_folder
-			position = { x = 16 y = 12 }
+			position = { x = 16 y = 6 }
 		}
 		
 		categories = {
@@ -226,10 +226,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
-			position = { x = 16 y = 18 }
+			position = { x = 16 y = 12 }
 		}
 		
 		categories = {
@@ -258,7 +258,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = support_folder
-			position = { x = 16 y = 24 }
+			position = { x = 16 y = 18 }
 		}
 		
 		categories = {
@@ -283,7 +283,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = support_folder
-			position = { x = 16 y = 30 }
+			position = { x = 16 y = 24 }
 		}
 		
 		categories = {
@@ -314,7 +314,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = support_folder
-			position = { x = 18 y = 12 }
+			position = { x = 18 y = 6 }
 		}
 		
 		categories = {
@@ -338,10 +338,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
-			position = { x = 18 y = 18 }
+			position = { x = 18 y = 12 }
 		}
 		
 		categories = {
@@ -369,7 +369,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = support_folder
-			position = { x = 18 y = 24 }
+			position = { x = 18 y = 18 }
 		}
 		
 		categories = {
@@ -394,7 +394,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = support_folder
-			position = { x = 18 y = 30 }
+			position = { x = 18 y = 24 }
 		}
 		
 		categories = {
@@ -423,7 +423,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 3 }
@@ -466,7 +466,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 7 }
@@ -502,7 +502,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 12 }
@@ -537,7 +537,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 18 }
@@ -609,17 +609,9 @@ technologies = {
 		engineer = {
 			soft_attack = 1
 		}
-
-		on_research_complete_limit = {
-			ZOM = { exists = yes }
-		}
 		
-		on_research_complete = {
-			add_ideas = Anti_Zombie_Weaponry_1
-		}
-
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 1 y = 5 }
@@ -639,14 +631,6 @@ technologies = {
 
 		engineer = {
 			soft_attack = 0.5
-		}
-
-		on_research_complete_limit = {
-			ZOM = { exists = yes }
-		}
-		
-		on_research_complete = {
-			add_ideas = Anti_Zombie_Weaponry_2
 		}
 
 		research_cost = 1.5
@@ -672,14 +656,6 @@ technologies = {
 			soft_attack = 0.5
 		}
 
-		on_research_complete_limit = {
-			ZOM = { exists = yes }
-		}
-		
-		on_research_complete = {
-			add_ideas = Anti_Zombie_Weaponry_3
-		}
-
 		research_cost = 1.5
 		start_year = 1965
 		folder = {
@@ -703,14 +679,6 @@ technologies = {
 			soft_attack = 0.5
 		}
 
-		on_research_complete_limit = {
-			ZOM = { exists = yes }
-		}
-		
-		on_research_complete = {
-			add_ideas = Anti_Zombie_Weaponry_4
-		}
-
 		research_cost = 1.5
 		start_year = 1975
 		folder = {
@@ -732,14 +700,6 @@ technologies = {
 
 		engineer = {
 			soft_attack = 0.5
-		}
-
-		on_research_complete_limit = {
-			ZOM = { exists = yes }
-		}
-		
-		on_research_complete = {
-			add_ideas = Anti_Zombie_Weaponry_5
 		}
 
 		research_cost = 1.5
@@ -774,7 +734,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 2 }
@@ -817,7 +777,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 7 }
@@ -854,7 +814,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 12 }
@@ -889,7 +849,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 2 y = 18 }
@@ -941,39 +901,6 @@ technologies = {
 			
 		}
 	}
-	tech_recon6 = {
-
-		recon = {
-			recon = 2
-		}
-		mot_recon = {
-			recon = 2
-		}
-		IFV_recon = {
-			recon = 2
-		}
-		MBT_recon = {
-			recon = 2
-		}
-
-		research_cost = 1.5
-		start_year = 1990
-		folder = {
-			name = support_folder
-			position = { x = 2 y = 30 }
-		}
-		
-		categories = {
-			support_tech
-			recon_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-	
 	tech_military_police = {
 
 		enable_subunits = {
@@ -986,7 +913,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 2 }
@@ -1045,7 +972,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 7 }
@@ -1077,7 +1004,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 12 }
@@ -1107,7 +1034,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 18 }
@@ -1158,33 +1085,6 @@ technologies = {
 			}
 		}
 	}
-	tech_military_police6 = {
-
-		military_police = {
-			suppression_factor = 0.1
-		}
-
-		research_cost = 1.5
-		start_year = 1990
-		folder = {
-			name = support_folder
-			position = { x = 4 y = 30 }
-		}
-		
-		categories = {
-			support_tech
-			military_police_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				has_war = yes
-			}
-		}
-	}
 
 	tech_maintenance_company = {
 
@@ -1198,7 +1098,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 2 }
@@ -1229,7 +1129,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 7 }
@@ -1258,7 +1158,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 12 }
@@ -1285,7 +1185,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 6 y = 18 }
@@ -1329,34 +1229,6 @@ technologies = {
 			
 		}
 	}
-	tech_maintenance_company6 = {
-
-		maintenance_company = {
-			reliability_factor = 0.05
-			equipment_capture_factor = 0.05
-		}
-		path = {
-			leads_to_tech = tech_maintenance_company4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1990
-		folder = {
-			name = support_folder
-			position = { x = 6 y = 30 }
-		}
-		
-		categories = {
-			support_tech
-			maintenance_company_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
 
 	tech_field_hospital = {
 
@@ -1374,7 +1246,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 2 }
@@ -1405,7 +1277,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 7 }
@@ -1435,7 +1307,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 12 }
@@ -1463,7 +1335,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 8 y = 18 }
@@ -1509,32 +1381,6 @@ technologies = {
 			
 		}
 	}
-	tech_field_hospital6 = {
-
-		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
-		}
-
-		research_cost = 1.5
-		start_year = 1990
-		folder = {
-			name = support_folder
-			position = { x = 8 y = 30 }
-		}
-		
-		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-
 	tech_logistics_company = {
 
 		enable_subunits = {
@@ -1551,7 +1397,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 2 }
@@ -1583,7 +1429,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 7 }
@@ -1613,7 +1459,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 12 }
@@ -1641,7 +1487,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 10 y = 18 }
@@ -1687,32 +1533,6 @@ technologies = {
 			
 		}
 	}
-	tech_logistics_company6 = {
-
-		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.025
-		}
-
-
-		research_cost = 1.5
-		start_year = 1990
-		folder = {
-			name = support_folder
-			position = { x = 10 y = 30 }
-		}
-		
-		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
 
 	tech_signal_company = {
 
@@ -1731,7 +1551,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1960
 		folder = {
 			name = support_folder
 			position = { x = 12 y = 2 }
@@ -1761,7 +1581,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1950
+		start_year = 1963
 		folder = {
 			name = support_folder
 			position = { x = 12 y = 7 }
@@ -1790,7 +1610,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1960
+		start_year = 1966
 		folder = {
 			name = support_folder
 			position = { x = 12 y = 12 }
@@ -1817,7 +1637,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1970
+		start_year = 1969
 		folder = {
 			name = support_folder
 			position = { x = 12 y = 18 }
@@ -1860,29 +1680,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-		}
-	}
-	tech_signal_company6 = {
-
-		signal_company = {
-			initiative = 0.12
-		}
-
-		research_cost = 1.5
-		start_year = 1990
-		folder = {
-			name = support_folder
-			position = { x = 12 y = 30 }
-		}
-		
-		categories = {
-			support_tech
-			signal_company_tech
-			electronics
-		}
-		
-		ai_will_do = {
-			factor = 1
 		}
 	}
 }

@@ -202,6 +202,8 @@ technologies = {
 			leads_to_tech = IFV_1950
 			research_cost_coeff = 1
 		}
+
+		u
 		
 		research_cost = 2
 		start_year = 1945
@@ -227,7 +229,11 @@ technologies = {
 		enable_equipments = {
 			IFV_equipment_1 
 		}
-		
+
+		enable_subunits = {
+			IFV
+		}
+
 		path = {
 			leads_to_tech = IFV_1960
 			research_cost_coeff = 1
