@@ -36,6 +36,7 @@ ideas = {
 				army_morale_factor = 0.15
 			}
 		}
+
 		HGR_burgundian_commanders = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_burgundian_commanders"}
 
@@ -73,6 +74,7 @@ ideas = {
 				resistance_damage_to_garrison = -0.25
 			}
 		}
+
 		HGR_your_life_for_heydrich = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_your_life_for_heydrich"}
 
@@ -91,6 +93,7 @@ ideas = {
 				resistance_damage_to_garrison = 0.15
 			}
 		}
+
 		HGR_loyalty_to_himmler = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_loyalty_to_himmler"}
 
@@ -109,6 +112,7 @@ ideas = {
 				resistance_damage_to_garrison = 0.20
 			}
 		}
+
 		HGR_the_final_stand = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_the_final_stand"}
 
@@ -125,6 +129,7 @@ ideas = {
 				out_of_supply_factor = -0.15
 			}
 		}
+
 		HGR_SS_blitz = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_SS_blitz"}
 
@@ -141,6 +146,7 @@ ideas = {
 				out_of_supply_factor = -0.05
 			}
 		}
+
 		HGR_SS_commissariat = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_SS_commissariat"}
 
@@ -158,6 +164,7 @@ ideas = {
 				resistance_damage_to_garrison = -0.2
 			}
 		}
+
 		HGR_deutsch_sicherheitsdienst = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_deutsch_sicherheitsdienst"}
 
@@ -174,6 +181,7 @@ ideas = {
 				encryption_factor = 0.2
 			}
 		}
+
 		HGR_heydrichjugend = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_heydrichjugend"}
 
@@ -192,6 +200,7 @@ ideas = {
 				resistance_damage_to_garrison = 0.2
 			}
 		}
+
 		HGR_terror_campaign = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_terror_campaign"}
 
@@ -209,6 +218,7 @@ ideas = {
 				resistance_damage_to_garrison = -0.25
 			}
 		}
+		
 		HGR_burgundian_einsatzgruppen = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HGR_burgundian_einsatzgruppen"}
 
