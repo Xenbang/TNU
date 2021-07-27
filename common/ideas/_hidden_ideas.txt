@@ -19,7 +19,7 @@ ideas = {
 			}
             equipment_bonus = {
                 MBT_equipment_2 = {
-                    armor = 0.1 
+                    armour = 0.1 
 					breakthrough = 0.05
 					defense = 0.05                    
                     build_cost_ic = 0.05 
@@ -107,7 +107,7 @@ ideas = {
 			}
             equipment_bonus = {
                 MBT_equipment_3 = {
-                    armor = 0.1 
+                    armour = 0.1 
 					breakthrough = 0.05
 					defense = 0.05                    
                     build_cost_ic = 0.05 
@@ -195,7 +195,7 @@ ideas = {
 			}
             equipment_bonus = {
                 MBT_equipment_4 = {
-                    armor = 0.1 
+                    armour = 0.1 
 					breakthrough = 0.05
 					defense = 0.05                    
                     build_cost_ic = 0.05 
@@ -283,7 +283,7 @@ ideas = {
 			}
             equipment_bonus = {
                 MBT_equipment_5 = {
-                    armor = 0.1 
+                    armour = 0.1 
 					breakthrough = 0.05
 					defense = 0.05                    
                     build_cost_ic = 0.05 

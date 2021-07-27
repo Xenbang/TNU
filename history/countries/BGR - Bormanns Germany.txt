@@ -80,29 +80,11 @@ set_technology = {
 	mechanised_infantry3 = 1
 
 	APC_1950 = 1
-	APC_1950_basic_turret = 1
-	#APC_1950_basic_engine = 1
-	APC_1950_basic_armor = 1
-	APC_1960 = 1
 
 	IFV_1950 = 1
-	IFV_1950_basic_turret = 1
-	IFV_1950_basic_armor = 1
-	#IFV_1950_basic_engine = 1
-	IFV_1960 = 1
 	
 	MBT_1950 = 1
-	MBT_1950_basic_turret = 1
-	#MBT_1950_basic_engine = 1
-	MBT_1950_basic_armor = 1
-	MBT_1960 = 1
 	
-	#You're Welcome - CPR
-	kugelpanzer = 1
-	Maus = 1
-	Flakmaus = 1
-	#
-
 	##ARTY##
 	antiair5 = 1
 	antiair_1950 = 1

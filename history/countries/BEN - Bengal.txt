@@ -79,12 +79,6 @@ set_technology = {
 	motorized_infantry_1 = 1
 	mechanised_infantry3 = 1
 	advanced_medium_tank = 1
-	APC_1950 = 1
-	APC_1950_basic_turret = 1
-	IFV_1950 = 1
-	IFV_1950_basic_turret = 1
-	MBT_1950 = 1
-	MBT_1950_basic_turret = 1
 	infantry_at = 1
 
 	###BLOCK OF DEATH###

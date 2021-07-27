@@ -33,8 +33,6 @@ set_technology = {
 	mechanised_infantry3 = 1
 
 	APC_1950 = 1
-	APC_1950_basic_turret = 1
-	#APC_1950_basic_engine = 1
 
 	IFV_1950 = 1
 	

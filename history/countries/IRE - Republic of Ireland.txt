@@ -160,10 +160,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	IRE_there_will_be_blood
-	IRE_humiliation_of_a_giant
-	IRE_not_much_to_gain_mr_hitler
-	IRE_little_wehrmacht
 }
 
 create_country_leader = {

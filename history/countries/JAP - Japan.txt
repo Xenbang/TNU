@@ -8,190 +8,164 @@ add_stability = -0.30
 #add_war_support = 
 
 set_technology = {
- 	##INFANTRY##
- 	# infantry_equipment_0 = 1
- 	infantry_weapons_1 = 1
- 	infantry_weapons_2 = 1
- 	infantry_weapons_improvements_1 = 1
- 	infantry_weapons_improvements_2 = 1
- 	infantry_weapons_improvements_3 = 1
- 	infantry_weapons_improvements_4 = 1
- 	infantry_weapons_3 = 1
- 	infantry_weapons_improvements_5 = 1
- 	basic_infantry_equipment = 1
- 	support_weapons = 1
- 	support_weapons2 = 1
+	# Infantry
+	
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	infantry_weapons_2 = 1
+	infantry_weapons_improvements_1 = 1
+	infantry_weapons_improvements_2 = 1
+	infantry_weapons_improvements_3 = 1
+	infantry_weapons_improvements_4 = 1
+	infantry_weapons_3 = 1
+	infantry_weapons_improvements_5 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons2 = 1
 	night_vision_1 = 1
- 	support_weapons3 = 1
- 	support_weapons4 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
 	night_vision_2 = 1
- 	infantry_at = 1
- 	infantry_at2 = 1
- 	infantry_at3 = 1
-    infantry_at4 = 1
- 	
- 	motorized_infantry = 1
- 	motorized_rocket_unit = 1
- 	motorized_infantry_1 = 1
- 	marines = 1
-    marines2 = 1
- 	tech_mountaineers = 1
- 	tech_mountaineers2 = 1
- 	tech_mountaineers3 = 1
- 	paratroopers = 1
- 	paratroopers2 = 1
- 	paratroopers3 = 1
-
- 	##SUPPORT##
- 	tech_support = 1
- 	tech_engineers = 1
- 	tech_engineers_flamethrowers_1 = 1
- 	tech_engineers2 = 1
- 	tech_engineers_flamethrowers_2 = 1
- 	tech_engineers3 = 1
-	tech_engineers_flamethrowers_3 = 1
- 	tech_recon = 1
- 	tech_recon2 = 1
- 	tech_military_police = 1
- 	tech_military_police2 = 1
- 	tech_military_police3 = 1
- 	tech_maintenance_company = 1
- 	tech_maintenance_company2 = 1
- 	tech_field_hospital = 1
- 	tech_field_hospital2 = 1
- 	tech_logistics_company = 1
- 	tech_signal_company = 1
- 	tech_signal_company2 = 1
-
- 	##ARMOR##
- 	mechanised_infantry3 = 1
- 	APC_1950 = 1
- 	APC_1950_basic_turret = 1
-	#APC_1950_basic_engine = 1
-	APC_1950_basic_armor = 1
- 	APC_1960 = 1
- 	advanced_light_tank = 1
- 	IFV_1950 = 1
-	IFV_1950_basic_turret = 1
-	IFV_1950_basic_armor = 1
-	#IFV_1950_basic_engine = 1
- 	advanced_medium_tank = 1
- 	MBT_1950 = 1
- 	MBT_1950_basic_turret = 1
-	#MBT_1950_basic_engine = 1
-	MBT_1950_basic_armor = 1
- 	MBT_1960 = 1
-
- 	##ARTY##
- 	antiair5 = 1
- 	antiair_1950 = 1
- 	SPAA_1950 = 1
- 	gw_artillery = 1
- 	artillery4 = 1
- 	artillery_1950 = 1
- 	artillery_1950_soft_attack = 1
- 	SPART_1950 = 1
- 	SPART_1950_soft_attack = 1
- 	#SPART_1950_speed = 1
-
- 	##LAND DOCTRINE##
-
- 	##NAVAL DOCTRINE##
-
- 	##HELICOPTERS##
- 	very_early_helicopter = 1
- 	early_helicopter = 1
- 	transport_helicopter_1960 = 1
- 	attack_helicopter_1960 = 1
- 	scout_helicopter_1960 = 1
-
- 	##LIGHT AIR##
- 	early_fighter = 1
- 	interceptor_1945 = 1
- 	interceptor_1950 = 1
-	interceptor_1960 = 1
-
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_at3 = 1
+	tech_special_forces = 1
+	advanced_special_forces = 1
 	
- 	fighter_1945 = 1
- 	fighter_1950 = 1
-	fighter_1960 = 1
-	cv_1945_fighter = 1
-	cv_1950_fighter = 1
-	cv_1960_fighter = 1
-
- 	CAS_1945 = 1
- 	CAS_1950 = 1
-	CAS_1960 = 1
-	cv_1945_CAS = 1
-	cv_1950_CAS = 1
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	marines2 = 1
+	tech_mountaineers = 1
+	paratroopers = 1
 	
-  	##HEAVY AIR##
- 	tac_bomber1 = 1
- 	tac_air_1945 = 1
- 	tac_air_1950 = 1
- 	tac_air_1960 = 1
- 	strategic_bomber1 = 1
- 	heavy_air_1945 = 1
- 	heavy_air_1950 = 1
- 	heavy_air_1960 = 1
- 	transport_air1 = 1
- 	transport_air_1945 = 1
- 	transport_air_1950 = 1
- 	transport_air_1960 = 1
+	#Support
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers_flamethrowers_1 = 1
+	tech_engineers2 = 1
+	tech_engineers_flamethrowers_2 = 1
+	tech_engineers3 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_recon3 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
 
- 	##ENGINEERING##
- 	electronic_mechanical_engineering = 1
- 	radio = 1
- 	radio_detection = 1
- 	decimetric_radar = 1
- 	centimetric_radar = 1
-    radar_1950 = 1
-    radar_1960 = 1
- 	mechanical_computing = 1
- 	computing_machine = 1
- 	basic_encryption = 1
- 	basic_decryption = 1
- 	improved_computing_machine = 1
- 	improved_encryption = 1
- 	improved_decryption = 1
- 	advanced_computing_machine = 1
- 	advanced_encryption = 1
-	advanced_decryption = 1
- 	computing_machine_1950 = 1
-    encryption_1950 = 1
-    encryption_1960 = 1
-    decryption_1950 = 1
-    decryption_1960 = 1
- 	computing_machine_1960 = 1
- 	
- 	helicopter_engines = 1
- 	jet_engines = 1
- 	jet_engines_bombers = 1
- 	improved_jet_engines_bombers_1 = 1
- 	
-	##INDUSTRY##
+	#Armor
+	
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
+	mechanised_infantry3 = 1
+
+	APC_1950 = 1
+
+	IFV_1950 = 1
+	
+	MBT_1950 = 1
+
+	#Artillery
+	
+	antiair5 = 1
+	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	light_SPAA_1950_air_attack = 1
+	SPAA_1950 = 1
+	SPAA_1950_air_attack = 1
+	gw_artillery = 1
+	artillery4 = 1
+	artillery_1950 = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
+
+	#Helicopters
+	
+	very_early_helicopter = 1
+	early_helicopter = 1
+	transport_helicopter_1960 = 1
+	attack_helicopter_1960 = 1
+	scout_helicopter_1960 = 1
+	asw_helicopter_1960 = 1
+
+	#Light Air
+	
+	early_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	CAS_1945 = 1
+	CAS_1950 = 1
+
+	#Heavy Air
+	
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+
+	#Engineering
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	improved_decryption = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	computing_machine_1960 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	improved_jet_engines_bombers_1 = 1
+	
+	#Industry
+	
 	ww2_line_production = 1
+	mass_production_1 = 1
 	countrywide_improvements = 1
 	concentrated_industry1 = 1
-	concentrated_industry2 = 1
+	resource_extraction_methods = 1
 	oil_processing = 1
 	rubber_processing = 1
 	constructionmethods = 1
-    construction0 = 1
-	resource_extraction_methods = 1
-    excavation0 = 1
+	construction0 = 1
+	excavation0 = 1
 	construction1 = 1
 	excavation1 = 1
 	military_construction0 = 1
 	military_construction1 = 1
-	batch_production_1 = 1
-	batch_production_2 = 1
 	
-	##WMDs##
-	ICBM = 1
-	MRBM = 1
-	SRBM = 1
+	#Doctrines
+	
+	green_water_navy = 1
+	strategic_theorem = 1
 }
+
 
 set_country_flag = gui_alert_visible
 
@@ -287,10 +261,6 @@ if = {
 		improved_frigate = 1
 	}
 }
-
-add_opinion_modifier = { target = HON modifier = TNO_japanese_influenced }
-add_opinion_modifier = { target = GUA modifier = TNO_japanese_influenced }
-add_opinion_modifier = { target = NIC modifier = TNO_japanese_influenced }
 
 set_politics = {	
 	ruling_party = fascism
@@ -714,68 +684,9 @@ create_navy_leader = {
 }
 
 add_ideas = {
-
 	#Standard#
 	Sphere_Leader
 }
-
-set_country_flag = JAP_starting_economy_tree
-set_country_flag = JAP_mongolian_war
-set_country_flag = hawaiian_missile_crisis
-
-set_country_flag = JAP_starting_economy_tree
-set_country_flag = JAP_mongolian_war
-set_country_flag = hawaiian_missile_crisis
-set_country_flag = JAP_Ino_Prime_Minister
-set_country_flag = JAP_army_dominant_faction
-set_country_flag = JAP_zaibatsu_dominant_system
-set_country_flag = JAP_stability_policy
-set_country_flag = JAP_containment_policy
-set_country_flag = INS_SemiAutonomous_state
-set_country_flag = PHI_Pacified_rebels
-set_country_flag = PHI_Active_communists
-set_country_flag = PHI_SemiAutonomous_state
-set_country_flag = SYO_China_congress
-set_country_flag = BUR_Occupied_state
-set_country_flag = JAP_Arabia_not_in_sphere
-set_country_flag = JAP_Iran_not_in_sphere
-set_country_flag = JAP_Italy_not_in_sphere
-set_country_flag = JAP_Russia_not_in_sphere
-set_country_flag = JAP_Arabia_in_sphere
-set_country_flag = JAP_Iran_in_sphere
-set_country_flag = JAP_Italy_in_sphere
-set_country_flag = JAP_Russia_in_sphere
-JAP_tree_swap = yes
-set_variable = { ins_resource_extraction = 0.75 }
-set_variable = { ins_resource_consumption = 0.25 }
-set_variable = { ins_IJA_control = 0.25 }
-set_variable = { ins_IJN_control = 0.75 }
-set_variable = { ins_unrest = 0.1 }
-set_variable = { phi_IJA_control = .30 }
-set_variable = { phi_IJN_control = .25 }
-set_variable = { phi_unrest = 0.00}
-set_variable = { man_ind_control = .90}
-set_variable = { man_state_control = .66}
-set_variable = { man_zaibatsu_control = .24}
-set_variable = { man_private_control = 0.1}
-set_variable = { man_IJA_control = 1 }
-set_variable = { man_IJN_control = 0.0 }
-set_variable = { man_unrest = 0.0 }
-set_variable = { syo_zaibatsu_control = 0.35 }
-set_variable = { syo_extraction = 0.25 }
-set_variable = { syo_IJA_control = 0.35 }
-set_variable = { syo_IJN_control = 0.15 }
-set_variable = { chi_education = 0.0 }
-set_variable = { chi_technology = 0.0 }
-set_variable = { chi_industry = 0.0 }
-set_variable = { chi_militarization = 0.0 }
-set_variable = { bur_ija_presence = 0.5 }
-set_variable = { bur_bna_presence = 0.5 }
-set_variable = { bur_militarization = 0.8 }
-set_variable = { bur_IJA_control = 0.85 }
-set_variable = { bur_IJN_control = 0.15 }
-
-set_variable = { JAP_election_tokens = 1 }
 
 #Starting Equipment
 add_equipment_to_stockpile = {

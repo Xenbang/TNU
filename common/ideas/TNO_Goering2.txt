@@ -1593,116 +1593,6 @@ GGR_The_New_Panzer_3 = {
 			}
 		}
 
-		GER_GOR_invasion_preparation_vituska = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_GOR_invasion_preparation_vituska"}
-
-			picture = GER_Operation_Ostwind
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			cancel = {
-				BLR = {
-					exists = no
-				}
-			}
-
-			removal_cost = -1
-
-			targeted_modifier = {
-				tag = BLR
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
-
-		GER_GOR_invade_vituska_2 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GER_GOR_invade_vituska_2"}
-
-			picture = GER_Operation_Ostwind
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			cancel = {
-				BLR = {
-					exists = no
-				}
-			}
-
-			removal_cost = -1
-
-			targeted_modifier = {
-				tag = BLR
-				attack_bonus_against = 0.2
-				#enemy_#partisan_effect = -0.5
-			}
-		}
-
-		GGR_DST_operation_ostwind = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_DST_operation_ostwind"}
-
-			picture = GER_Operation_Ostwind
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			cancel = {
-				DST = {
-					exists = no
-				}
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				army_org_factor = 0.1
-				army_morale_factor = 0.2
-			}
-		}
-
-		GGR_DST_operation_ostwind2 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_DST_operation_ostwind2"}
-
-				picture = GER_Operation_Ostwind
-
-				allowed = {
-					always = no
-				}
-
-				allowed_civil_war = {
-					always = no
-				}
-				cancel = {
-					DST = {
-						exists = no
-					}
-				}
-
-				removal_cost = -1
-
-				modifier = {
-					army_org_factor = 0.1
-					army_morale_factor = 0.2
-				}
-				targeted_modifier = {
-					tag = DST
-					attack_bonus_against = 0.1
-					defense_bonus_against = 0.1
-				}
-			}
 
 		GGR_invade_stahlecker = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_invade_stahlecker"}
@@ -1732,41 +1622,8 @@ GGR_The_New_Panzer_3 = {
 			}
 		}
 
-			GGR_invade_stahlecker2 = {
-				on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_invade_stahlecker2"}
-
-				picture = GER_Operation_Ostwind
-
-				allowed = {
-					always = no
-				}
-
-				allowed_civil_war = {
-					always = no
-				}
-
-				cancel = {
-					OST = {
-						exists = no
-					}
-				}
-
-				removal_cost = -1
-
-				modifier = {
-					army_speed_factor = 0.1
-					land_reinforce_rate = 0.05
-				}
-
-				targeted_modifier = {
-					tag = OST
-					attack_bonus_against = 0.2
-					defense_bonus_against = 0.1
-				}
-			}
-
-		GGR_MST_operation_ostwind = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_MST_operation_ostwind"}
+		GGR_invade_stahlecker2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_invade_stahlecker2"}
 
 			picture = GER_Operation_Ostwind
 
@@ -1779,80 +1636,24 @@ GGR_The_New_Panzer_3 = {
 			}
 
 			cancel = {
-				MST = {
+				OST = {
 					exists = no
 				}
 			}
 
 			removal_cost = -1
 
+			modifier = {
+				army_speed_factor = 0.1
+				land_reinforce_rate = 0.05
+			}
+
 			targeted_modifier = {
-				tag = MST
-				attack_bonus_against = 0.1
+				tag = OST
+				attack_bonus_against = 0.2
 				defense_bonus_against = 0.1
 			}
 		}
-
-			GGR_MST_operation_ostwind2 = {
-				on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_MST_operation_ostwind2"}
-
-				picture = GER_Operation_Ostwind
-
-				allowed = {
-					always = no
-				}
-
-				allowed_civil_war = {
-					always = no
-				}
-
-				cancel = {
-					MST = {
-						exists = no
-					}
-				}
-
-				removal_cost = -1
-
-				targeted_modifier = {
-					tag = MST
-					attack_bonus_against = 0.2
-					defense_bonus_against = 0.2
-				}
-			}
-
-				GGR_MST_operation_ostwind3 = {
-					on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_MST_operation_ostwind3"}
-
-					picture = GER_Operation_Ostwind
-
-					allowed = {
-						always = no
-					}
-
-					allowed_civil_war = {
-						always = no
-					}
-
-					cancel = {
-						MST = {
-							exists = no
-						}
-					}
-
-					removal_cost = -1
-
-					modifier = {
-						army_speed_factor = 0.1
-						army_org_factor = 0.1
-					}
-
-					targeted_modifier = {
-						tag = MST
-						attack_bonus_against = 0.2
-						defense_bonus_against = 0.2
-					}
-				}
 
 		GGR_ostland_partisans = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_ostland_partisans"}
@@ -1875,31 +1676,10 @@ GGR_The_New_Panzer_3 = {
 			}
 		}
 
-			GGR_ostland_partisans2 = {
-				on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_ostland_partisans2"}
+		GGR_ostland_partisans2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_ostland_partisans2"}
 
-				picture = GER_Ostland_Partisans
-
-				allowed = {
-					always = no
-				}
-
-				allowed_civil_war = {
-					always = no
-				}
-
-				removal_cost = -1
-
-				modifier = {
-					consumer_goods_factor = 0.02
-					industrial_capacity_factory = -0.05
-				}
-			}
-
-		GGR_eastern_nightmare = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_eastern_nightmare"}
-
-			picture = GER_Operation_Ostwind
+			picture = GER_Ostland_Partisans
 
 			allowed = {
 				always = no
@@ -1909,18 +1689,11 @@ GGR_The_New_Panzer_3 = {
 				always = no
 			}
 
-			removal_cost = 1
+			removal_cost = -1
 
-			cancel = {
-				UPO = {
-					exists = no
-				}
-			}
-
-			targeted_modifier = {
-				tag = UPO
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.2
+			modifier = {
+				consumer_goods_factor = 0.02
+				industrial_capacity_factory = -0.05
 			}
 		}
 
@@ -1963,50 +1736,6 @@ GGR_The_New_Panzer_3 = {
 			modifier = {
 				political_power_cost = 0.3
 				consumer_goods_factor = 0.05
-			}
-		}
-
-		GGR_restoring_order = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_restoring_order"}
-
-			picture = GER_Operation_Ostwind
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			cancel = { Pakt_OST_OCW_Stahlecker_Victory = yes }
-			removal_cost = -1
-			modifier = {
-				army_speed_factor = 0.15
-				land_reinforce_rate = 0.02
-			}
-		}
-
-		GGR_restoring_order2 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GGR_restoring_order2"}
-
-			picture = GER_Operation_Ostwind
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			cancel = { Pakt_OST_OCW_Stahlecker_Victory = yes }
-			removal_cost = -1
-			modifier = {
-				army_speed_factor = 0.15
-				land_reinforce_rate = 0.02
-				air_strategic_bomber_bombing_factor = 0.3
-				army_bonus_air_superiority_factor = 0.1
 			}
 		}
 
@@ -3095,49 +2824,6 @@ GGR_The_New_Panzer_3 = {
 			}
 		}
 		
-		GGR_strengthening_the_garrison = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GGR_strengthening_the_garrison"}
-
-			picture = BAS_army_good
-
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			cancel = {
-				GGR_russia_conquered = yes
-			}
-			removal_cost = -1
-
-			modifier = {
-				war_support_factor = 0.15
-				supply_consumption_factor = -0.2
-			}
-		}
-		GGR_strengthening_the_garrison2 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GGR_strengthening_the_garrison2"}
-
-			picture = BAS_army_good
-
-			allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			cancel = {
-				GGR_russia_conquered = yes
-			}
-			removal_cost = -1
-
-			modifier = {
-				war_support_factor = 0.15
-				supply_consumption_factor = -0.2
-				weekly_manpower = 800
-			}
-		}
 		GGR_into_russia = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GGR_into_russia"}
 

@@ -12,58 +12,6 @@ give_resource_rights = {
 	state = 232 
 }
 
-###Skeleton trees###
-
-country_event = {
-	id = cau.10000
-	days = 1
-}
-
-country_event = {
-    id = cau.10001
-    days = 182
-}
-
-country_event = {
-    id = cau.10002
-    days = 680
-}
-
-country_event = {
-    id = cau.10003
-    days = 690
-}
-
-country_event = {
-    id = cau.10004
-    days = 700
-}
-
-country_event = {
-    id = cau.10005
-    days = 700
-}
-
-country_event = {
-    id = cau.10008
-    days = 2159
-}
-
-country_event = {
-    id = cau.10009
-    days = 2159
-}
-
-country_event = {
-    id = cau.10010
-    days = 2166
-}
-
-country_event = {
-    id = cau.10011
-    days = 2166
-}
-
 set_technology = {
  	##INFANTRY##
  	# infantry_equipment_0 = 1
@@ -114,13 +62,8 @@ set_technology = {
 	mechanised_infantry3 = 1
 
 	APC_1950 = 1
-	APC_1950_basic_turret = 1
-	#APC_1950_basic_engine = 1
 	IFV_1950 = 1
-	IFV_1950_basic_turret = 1
 	MBT_1950 = 1
-	MBT_1950_basic_turret = 1
-	#MBT_1950_basic_engine = 1
 
  	##ARTY##
  	antiair5 = 1

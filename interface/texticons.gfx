@@ -1489,12 +1489,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_prod_growth"
-		texturefile = "gfx/texticons/efficiency_icon_growth.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
 		name = "GFX_prod_eff_cap"
 		texturefile = "gfx/texticons/efficiency_cap_texticon.dds"
 		legacy_lazy_load = no
@@ -1699,18 +1693,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_podium_texticon"
-		texturefile = "gfx/texticons/podium_texticon.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
-		name = "GFX_diet_texticon"
-		texturefile = "gfx/texticons/diet_texticon.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
 		name = "GFX_approval_texticon"
 		texturefile = "gfx/texticons/approval_texticon.dds"
 		legacy_lazy_load = no
@@ -1729,18 +1711,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_box_empty"
-		texturefile = "gfx/texticons/box_empty.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_bad_boy_point"
-		texturefile = "gfx/texticons/GFX_bad_boy_point.dds"
-		legacy_lazy_load = no
-	}
-
-	spriteType = {
 		name = "GFX_encryption_texticon"
 		texturefile = "gfx/texticons/encryption_texticon.dds"
 		legacy_lazy_load = no
@@ -1749,42 +1719,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decryption_texticon"
 		texturefile = "gfx/texticons/decryption_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_aluminium_texticon"
-		texturefile = "gfx/texticons/resource_aluminium_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_chromium_texticon"
-		texturefile = "gfx/texticons/resource_chromium_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_oil_texticon"
-		texturefile = "gfx/texticons/resource_oil_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_rubber_texticon"
-		texturefile = "gfx/texticons/resource_rubber_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_steel_texticon"
-		texturefile = "gfx/texticons/resource_steel_texticon.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_tungsten_texticon"
-		texturefile = "gfx/texticons/resource_tungsten_texticon.dds"
 		legacy_lazy_load = no
 	}
 }

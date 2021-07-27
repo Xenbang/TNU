@@ -10,7 +10,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			available = { NOT = { econ_can_use_economy_system = yes } }
 			removal_cost = -1
 
 			cancel_if_invalid = yes

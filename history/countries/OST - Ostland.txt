@@ -14,7 +14,8 @@ add_ideas = {
 
 
 set_technology = {
-	##INFANTRY##
+	# Infantry
+	
 	# infantry_equipment_0 = 1
 	infantry_weapons_1 = 1
 	infantry_weapons_2 = 1
@@ -34,28 +35,28 @@ set_technology = {
 	infantry_at = 1
 	infantry_at2 = 1
 	infantry_at3 = 1
+	tech_special_forces = 1
+	advanced_special_forces = 1
 	
 	motorized_infantry = 1
 	motorized_rocket_unit = 1
 	motorized_infantry_1 = 1
 	marines = 1
+	marines2 = 1
 	tech_mountaineers = 1
-	tech_mountaineers2 = 1
-	tech_mountaineers3 = 1
 	paratroopers = 1
-	paratroopers2 = 1
-	paratroopers3 = 1
-
-	##SUPPORT##
+	
+	#Support
+	
 	tech_support = 1
 	tech_engineers = 1
 	tech_engineers_flamethrowers_1 = 1
 	tech_engineers2 = 1
 	tech_engineers_flamethrowers_2 = 1
 	tech_engineers3 = 1
-	tech_engineers_flamethrowers_3 = 1
 	tech_recon = 1
 	tech_recon2 = 1
+	tech_recon3 = 1
 	tech_military_police = 1
 	tech_military_police2 = 1
 	tech_military_police3 = 1
@@ -67,62 +68,45 @@ set_technology = {
 	tech_signal_company = 1
 	tech_signal_company2 = 1
 
-	##ARMOR##
+	#Armor
+	
 	advanced_light_tank = 1
 	advanced_medium_tank = 1
 	mechanised_infantry3 = 1
 
 	APC_1950 = 1
-	APC_1950_basic_turret = 1
-	#APC_1950_basic_engine = 1
-	APC_1950_basic_armor = 1
-	APC_1960 = 1
 
 	IFV_1950 = 1
-	IFV_1950_basic_turret = 1
-	IFV_1950_basic_armor = 1
-	#IFV_1950_basic_engine = 1
-	IFV_1960 = 1
 	
 	MBT_1950 = 1
-	MBT_1950_basic_turret = 1
-	#MBT_1950_basic_engine = 1
-	MBT_1950_basic_armor = 1
-	MBT_1960 = 1
 
-	##ARTY##
+	#Artillery
+	
 	antiair5 = 1
 	antiair_1950 = 1
+	light_SPAA_1950 = 1
+	light_SPAA_1950_air_attack = 1
 	SPAA_1950 = 1
+	SPAA_1950_air_attack = 1
 	gw_artillery = 1
 	artillery4 = 1
 	artillery_1950 = 1
-	artillery_1950_soft_attack = 1
 	SPART_1950 = 1
 	SPART_1950_soft_attack = 1
-	#SPART_1950_speed = 1
+	light_SPART_1950 = 1
+	light_SPART_1950_soft_attack = 1
 
-	##LAND DOCTRINE##
-	maneuver_warfare = 1
-
-	##NAVAL##
-	ww2_destroyer = 1
-	ww2_cruiser = 1
-	ww2_battleship = 1
-	ww2_submarine = 1
-	basic_submarine = 1
-	improved_submarine = 1
-	transport = 1
-
-	##NAVAL DOCTRINE##
-
-	##HELICOPTERS##
+	#Helicopters
+	
 	very_early_helicopter = 1
 	early_helicopter = 1
 	transport_helicopter_1960 = 1
 	attack_helicopter_1960 = 1
+	scout_helicopter_1960 = 1
+	asw_helicopter_1960 = 1
 
-	##LIGHT AIR##
+	#Light Air
+	
 	early_fighter = 1
 	interceptor_1945 = 1
 	interceptor_1950 = 1
@@ -131,21 +115,20 @@ set_technology = {
 	CAS_1945 = 1
 	CAS_1950 = 1
 
-	##HEAVY AIR##
+	#Heavy Air
+	
 	tac_bomber1 = 1
 	tac_air_1945 = 1
 	tac_air_1950 = 1
-	tac_air_1960 = 1
 	strategic_bomber1 = 1
 	heavy_air_1945 = 1
 	heavy_air_1950 = 1
-	heavy_air_1960 = 1
 	transport_air1 = 1
 	transport_air_1945 = 1
 	transport_air_1950 = 1
-	transport_air_1960 = 1
 
-	##ENGINEERING##
+	#Engineering
+	
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
@@ -159,38 +142,36 @@ set_technology = {
 	improved_encryption = 1
 	improved_decryption = 1
 	advanced_computing_machine = 1
-	advanced_encryption = 1
 	computing_machine_1950 = 1
 	computing_machine_1960 = 1
-	
-	
-	
 	helicopter_engines = 1
 	jet_engines = 1
 	jet_engines_bombers = 1
 	improved_jet_engines_bombers_1 = 1
 	
+	#Industry
 	
-	
-	
-
-	##INDUSTRY##
 	ww2_line_production = 1
 	mass_production_1 = 1
 	countrywide_improvements = 1
-	dispersed_industry1 = 1
-	
+	concentrated_industry1 = 1
+	resource_extraction_methods = 1
 	oil_processing = 1
 	rubber_processing = 1
 	constructionmethods = 1
-    construction0 = 1
-	resource_extraction_methods = 1
-    excavation0 = 1
+	construction0 = 1
+	excavation0 = 1
 	construction1 = 1
 	excavation1 = 1
 	military_construction0 = 1
 	military_construction1 = 1
+	
+	#Doctrines
+	
+	green_water_navy = 1
+	strategic_theorem = 1
 }
+
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
