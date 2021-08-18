@@ -5,10 +5,12 @@ state={
 	manpower = 2539193
 	
 	state_category = rural
+	resources = {
+		rubber = 10
+	}
 
 	history={
 		owner = USA
-		add_core_of = PUR
 		victory_points = { 1440 1 }
 		buildings = {
 			infrastructure = 4

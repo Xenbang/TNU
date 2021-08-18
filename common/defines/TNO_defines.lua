@@ -19,6 +19,9 @@ NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.5
 NDefines.NDiplomacy.BASE_CONDITIONAL_PEACE_MONTHS = 1000
 
 
+NDefines.NBuildings.MAX_SHARED_SLOTS = 99 --max building slots in a state
+
+
 NDefines.NCountry.MIN_STABILITY = -1.0
 NDefines.NCountry.MIN_WAR_SUPPORT = -1.0
 NDefines.NCountry.DAYS_OF_WAR_BEFORE_SURRENDER = 10000
